@@ -66,6 +66,42 @@ All agents MUST check: am I writing to `nephrology-wiki/`? If yes → public-saf
 - One place to manage, vault = source of truth
 - `git push` → GitHub public mirror
 
+## Multi-Author Model
+
+Three independent LLM authors contribute to this wiki. Each reads vault raw literature and updates wiki autonomously.
+
+| author | model | access | role | schedule |
+|---|---|---|---|---|
+| **Claude Sonnet** | Sonnet 4.6 | vault local + cloud | workhorse author, /med-read pipeline, bulk wikify | continuous |
+| **Codex** | GPT-5.4 | vault via CC plugin | independent contributor, adversarial perspective, gap fill | on dispatch or weekly |
+| **Gemma 4** | Gemma 4 | vault raw .md (read-only) | independent contributor, alternative perspective, bulk processing | on dispatch |
+| **Claude Opus** | Opus 4.6 | vault local | **Editor-in-Chief**: periodic audit, methodology compliance (Guyatt/Hernán), quality gate | weekly editorial review |
+
+**Protocol:**
+1. All three read from same source: vault `ref/` raw.md + `proj/wiki/` canonical wiki
+2. Each writes to `repos/nephrology-wiki/wiki/` — same files, merge on conflict
+3. Claude = final arbiter on methodology (Guyatt/Hernán compliance)
+4. Codex = adversarial review: challenges Claude's appraisals, catches errors
+5. Gemma = volume: bulk process textbook chapters, fill coverage gaps
+6. Git history tracks who wrote what (`Co-Authored-By:` in commits)
+7. **No author deletes another's content** — add, revise, flag disagreement in-place
+
+**Dispatch format** (in this card's TODO):
+```
+- [ ] {topic} — dispatch:{author}:{mode} ({date})
+```
+
+**Editorial Review (Opus, weekly):**
+1. Read all wiki .md modified since last review (`git log --since="7 days"`)
+2. Check each entry against /med-read methodology standards:
+   - Article entries: PICO present? GRADE rated? Causal claims checked? Nephro bias flagged?
+   - Textbook entries: key numbers preserved? No factual errors?
+3. Flag issues as inline `<!-- EDITOR: {issue} -->` comments
+4. Fix minor errors directly (typos, missing GRADE, wrong NNT calculation)
+5. Escalate major issues to Copper (factual disputes, methodology disagreements between authors)
+6. Write editorial summary to `_editorial_log.md` (append)
+7. **Opus = final word on methodology.** Sonnet/Codex/Gemma write content, Opus ensures quality.
+
 ## Current Coverage
 
 19 wiki files, 3,375 lines. Topics: AKI, anemia, CKD (4 parts), HD, PD, electrolytes, HTN, cardiology, endocrinology, infectious disease, hematology, nutrition, public health, EBM methods, general medicine.
