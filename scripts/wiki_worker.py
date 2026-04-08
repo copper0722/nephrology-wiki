@@ -18,6 +18,7 @@ LOCAL_LLM_URL = "http://localhost:8001/v1/chat/completions"
 MODEL_NAME = "dealignai/Gemma-4-31B-JANG_4M-CRACK"
 
 NEPHRO_KEYWORDS = ["kdigo", "daugirdas", "nolphgokal", "nephrology", "renal", "dialysis", "ckd", "aki"]
+BATCH_LIMIT = 5 # Process only 5 orphans per run to avoid timeout/overload
 
 def log(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -55,9 +56,14 @@ def process_orphans():
         log("Orphan file not found. Skipping.")
         return
 
+    processed_count = 0
     with open(ORPHAN_FILE, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f, delimiter='\t')
         for row in reader:
+            if processed_count >= BATCH_LIMIT:
+                log(f"Reached batch limit of {BATCH_LIMIT}. Stopping for this run.")
+                break
+                
             path = row['path']
             title = row['title']
             
@@ -66,7 +72,6 @@ def process_orphans():
                 if not os.path.exists(full_raw_path):
                     continue
                 
-                # Avoid duplicating if already exists in repo wiki
                 dest_path = os.path.join(REPO_WIKI_DIR, f"{title}.md")
                 if os.path.exists(dest_path):
                     continue
@@ -91,18 +96,20 @@ def process_orphans():
                     with open(dest_path, 'w', encoding='utf-8') as dest_f:
                         dest_f.write(wiki_content)
                     log(f"Successfully wikified {title}")
+                    processed_count += 1
+
+    if processed_count == 0:
+        log("No new nephro orphans to process.")
 
 def sync_canonical_updates():
     log("Syncing updates from canonical wiki...")
-    # Simplification: Find recently modified nephro wikis in proj/wiki and copy them
-    # In a real scenario, we'd use git log or timestamp checks.
-    # For now, we'll just ensure the repo is a current projection.
+    # Implementation: Sync based on modified time
+    # This is a placeholder for the sync logic.
     pass
 
 def generate_mcqs():
     log("Generating candidate MCQs...")
-    # Pick a random new file from REPO_WIKI_DIR and generate an MCQ
-    # Implementation omitted for brevity in this version, but can be added.
+    # implementation of MCQ generation would go here.
     pass
 
 def git_push():
