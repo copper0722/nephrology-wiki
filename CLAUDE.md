@@ -134,6 +134,31 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 5. Opus editorial review
 6. Publish to `cme/` (public) — **去除任何可辨識考題來源的資訊**（改寫 vignette，不直接用原題）
 
+## Agent Work Cycle
+
+每次 agent spawn 進 nephrology-wiki：
+
+```
+1. python3 repos/vault-scripts/wiki-orphan-scan.py
+   → _data/wiki_orphans.tsv (vault-wide orphan list)
+
+2. Filter: only nephrology-relevant orphans
+   (KDIGO, Daugirdas, NolphGokal, nephrology articles)
+
+3. For each nephro orphan:
+   → read raw.md → /med-read → vault wiki .md (canonical)
+   → export to repos/nephrology-wiki/wiki/ (exam format)
+
+4. Scan vault wiki for updates since last run:
+   → git log --since="last run" -- proj/wiki/wiki_nephrology_*.md
+   → re-export updated topics to repo
+
+5. CME question generation:
+   → new wiki content → auto-generate MCQ → cme/ folder
+
+6. git add -A && commit && push (auto-push cron handles this)
+```
+
 ## TODO
 - [ ] 考古題 gap analysis: 115年考題 vs 現有 wiki coverage — dd:auto (2026-04-08)
 - [ ] Brenner 11e 章節 mapping → wiki topics — plan:auto (2026-04-08)
