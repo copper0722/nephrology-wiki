@@ -91,6 +91,13 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 - [ ] {topic} — dispatch:{author}:{mode} ({date})
 ```
 
+**Medical Knowledge Half-Life Rule:** Medical knowledge decays. Old data ≠ current truth. Every wiki entry and CME question MUST carry publication year. Opus editorial checks:
+- Guideline cited → is it the LATEST version? (e.g., KDIGO 2024 CKD supersedes 2012)
+- Trial cited → has it been superseded or contradicted by newer evidence?
+- NephSAP 2008-2015 content → flag as NEEDS REVIEW, may be outdated
+- Drug recommendations → check current NHI formulary status
+- Threshold: content >5 years old without recent validation = stale, must be cross-checked before CME use
+
 **Editorial Review (Opus, daily):**
 1. Read all wiki .md modified since last review (`git log --since="1 day"`)
 2. Check each entry against /med-read methodology standards:
