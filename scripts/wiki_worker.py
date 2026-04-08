@@ -6,7 +6,7 @@ import csv
 from datetime import datetime
 
 # --- Configuration ---
-VAULT_ROOT = "/Users/copper/dropbox/Vault"
+VAULT_ROOT = os.path.expanduser("~/Library/CloudStorage/Dropbox/Vault")
 ORPHAN_FILE = os.path.join(VAULT_ROOT, "_data/wiki_orphans.tsv")
 REPO_WIKI_DIR = os.path.join(VAULT_ROOT, "repos/nephrology-wiki/wiki")
 CANONICAL_WIKI_DIR = os.path.join(VAULT_ROOT, "proj/wiki")
