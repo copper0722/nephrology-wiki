@@ -2549,3 +2549,465 @@
 - 2026-04-09 07:05:21: Generating candidate MCQs...
 - 2026-04-09 07:05:21: Pushing updates to GitHub...
 - 2026-04-09 07:05:22: Worker cycle completed successfully.
+- 2026-04-09 07:10:17: Running orphan scan...
+- 2026-04-09 07:10:21: Wikifying orphan: ANZDATA 48th Annual Report 2025 — Haemodialysis
+- 2026-04-09 07:12:15: Running orphan scan...
+- 2026-04-09 07:12:19: Wikifying orphan: ANZDATA 48th Annual Report 2025 — Haemodialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=300)
+- 2026-04-09 07:15:21: Wikifying orphan: ANZDATA 48th Annual Report 2025 — Chapter 5: Peritoneal Dialysis
+- 2026-04-09 07:15:21: LLM API Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+- 2026-04-09 07:15:21: Wikifying orphan: Water use in dialysis: environmental considerations
+- 2026-04-09 07:15:21: LLM API Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+- 2026-04-09 07:15:21: Wikifying orphan: ANZDATA 48th Annual Report 2025 — Chapter 5: Peritoneal Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Phase 3, Randomized, Double-Blind, Active-Comparator (Darbepoetin Alfa) Study of
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Water use in dialysis: environmental considerations
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Diagnosis and Management of Dementia: Review
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Phase 3, Randomized, Double-Blind, Active-Comparator (Darbepoetin Alfa) Study of
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Diagnosis and Management of Dementia: Review
+- 2026-04-09 07:15:21: Wikifying orphan: Renal Association Clinical Practice Guideline on Haemodialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Renal Association Clinical Practice Guideline on Haemodialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Current Management of Hyperkalemia in Patients on Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Current Management of Hyperkalemia in Patients on Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Comparison of hemodialysis with medium cut-off dialyzer and on-line hemodiafiltr
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Comparison of hemodialysis with medium cut-off dialyzer and on-line hemodiafiltr
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Effects of Phosphate Binders in Moderate CKD
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Effects of Phosphate Binders in Moderate CKD
+- 2026-04-09 07:15:21: Wikifying orphan: Hemodialysis leukopenia. Pulmonary vascular leukostasis resulting from complemen
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Hemodialysis leukopenia. Pulmonary vascular leukostasis resulting from complemen
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Impact of twice- or three-times-weekly maintenance hemodialysis on patient outco
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Impact of twice- or three-times-weekly maintenance hemodialysis on patient outco
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Review Eating during the Hemodialysis Session: A Practice Improving Nutritional 
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Review Eating during the Hemodialysis Session: A Practice Improving Nutritional 
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: The relationship between obesity and chronic kidney disease: conclusions from a 
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: The relationship between obesity and chronic kidney disease: conclusions from a 
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: A Trial of Extending Hemodialysis Hours and Quality of Life
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: A Trial of Extending Hemodialysis Hours and Quality of Life
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Neurological complications of renal dialysis and transplantation
+- 2026-04-09 07:15:21: Wikifying orphan: Neurological complications of renal dialysis and transplantation
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Use of Electron-Beam Sterilized Hemodialysis Membranes and Risk of Thrombocytope
+- 2026-04-09 07:15:21: Wikifying orphan: Use of Electron-Beam Sterilized Hemodialysis Membranes and Risk of Thrombocytope
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Removal of large middle molecules via haemodialysis with medium cut-off membrane
+- 2026-04-09 07:15:21: Wikifying orphan: Removal of large middle molecules via haemodialysis with medium cut-off membrane
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Calcium balance in hemodialysis: More uncertainty than certainty
+- 2026-04-09 07:15:21: Wikifying orphan: Calcium balance in hemodialysis: More uncertainty than certainty
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Fluctuations in plasma potassium in patients on dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Fluctuations in plasma potassium in patients on dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Dialysis-related Amyloidosis: Is It Gone or Should It Be?
+- 2026-04-09 07:15:21: Wikifying orphan: Dialysis-related Amyloidosis: Is It Gone or Should It Be?
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Hard water syndrome: a case series of 30 patients from a London haemodialysis un
+- 2026-04-09 07:15:21: Wikifying orphan: Hard water syndrome: a case series of 30 patients from a London haemodialysis un
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Effect of Membrane Permeability on Survival of Hemodialysis Patients
+- 2026-04-09 07:15:21: Wikifying orphan: Effect of Membrane Permeability on Survival of Hemodialysis Patients
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Case 13-2020: A 29-Year-Old Man with High Blood Pressure, Renal Insufficiency, a
+- 2026-04-09 07:15:21: Wikifying orphan: Case 13-2020: A 29-Year-Old Man with High Blood Pressure, Renal Insufficiency, a
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Intravenous Iron in Patients Undergoing Maintenance Hemodialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Intravenous Iron in Patients Undergoing Maintenance Hemodialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Blood Pressure Management in Hemodialysis Patients: What We Know And What Questi
+- 2026-04-09 07:15:21: Wikifying orphan: Blood Pressure Management in Hemodialysis Patients: What We Know And What Questi
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: End-stage renal disease in ANCA-associated vasculitis
+- 2026-04-09 07:15:21: Wikifying orphan: End-stage renal disease in ANCA-associated vasculitis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Point-of-care ultrasound education to improve care of dialysis patients
+- 2026-04-09 07:15:21: Wikifying orphan: Point-of-care ultrasound education to improve care of dialysis patients
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Dialysate Potassium, Dialysate Magnesium, and Hemodialysis Risk
+- 2026-04-09 07:15:21: Wikifying orphan: Dialysate Potassium, Dialysate Magnesium, and Hemodialysis Risk
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Acid-base alterations in ESRD and effects of hemodialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Acid-base alterations in ESRD and effects of hemodialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: End-Stage Renal Disease Chronic Itch and I t s Management
+- 2026-04-09 07:15:21: Wikifying orphan: End-Stage Renal Disease Chronic Itch and I t s Management
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Left Ventricular Assist Devices, Kidney Disease, and Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Left Ventricular Assist Devices, Kidney Disease, and Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Interventional Nephrology: Physical Examination as a Tool for Surveillance for t
+- 2026-04-09 07:15:21: Wikifying orphan: Interventional Nephrology: Physical Examination as a Tool for Surveillance for t
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Hypertension in dialysis patients: a consensus document by the European Renal an
+- 2026-04-09 07:15:21: Wikifying orphan: Hypertension in dialysis patients: a consensus document by the European Renal an
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Benefits and risks of frequent or longer haemodialysis: weighing the evidence
+- 2026-04-09 07:15:21: Wikifying orphan: Benefits and risks of frequent or longer haemodialysis: weighing the evidence
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: High‑volume online haemodiafltration treatment and outcome of end‑stage renal di
+- 2026-04-09 07:15:21: Wikifying orphan: High‑volume online haemodiafltration treatment and outcome of end‑stage renal di
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Volume management in haemodialysis patients
+- 2026-04-09 07:15:21: Wikifying orphan: Volume management in haemodialysis patients
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Fallacies and Pitfalls of Dialysis Sodium Prescription and Control
+- 2026-04-09 07:15:21: Wikifying orphan: Fallacies and Pitfalls of Dialysis Sodium Prescription and Control
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 臺灣慢性腎臟病臨床指引專書
+- 2026-04-09 07:15:21: Wikifying orphan: 臺灣慢性腎臟病臨床指引專書
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Pregnancy and End-Stage Renal Disease
+- 2026-04-09 07:15:21: Wikifying orphan: Pregnancy and End-Stage Renal Disease
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: $\pmb { \beta }$ -Blocker Dialyzability in Maintenance Hemodialysis Patients A R
+- 2026-04-09 07:15:21: Wikifying orphan: $\pmb { \beta }$ -Blocker Dialyzability in Maintenance Hemodialysis Patients A R
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Protein-Leaking Membranes for Hemodialysis: A New Class of Membranes in Search o
+- 2026-04-09 07:15:21: Wikifying orphan: Protein-Leaking Membranes for Hemodialysis: A New Class of Membranes in Search o
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Efficacy and Safety of Expanded Hemodialysis with the Theranova 400 Dialyzer A R
+- 2026-04-09 07:15:21: Wikifying orphan: Efficacy and Safety of Expanded Hemodialysis with the Theranova 400 Dialyzer A R
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Updates in Diagnosis and Management of Preeclampsia in Women with CKD
+- 2026-04-09 07:15:21: Wikifying orphan: Updates in Diagnosis and Management of Preeclampsia in Women with CKD
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 2015 Japanese Society for Dialysis Therapy: Guidelines for Renal Anemia in Chron
+- 2026-04-09 07:15:21: Wikifying orphan: 2015 Japanese Society for Dialysis Therapy: Guidelines for Renal Anemia in Chron
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: The Adrenal Medulla & Adrenal Cortex
+- 2026-04-09 07:15:21: Wikifying orphan: The Adrenal Medulla & Adrenal Cortex
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Renal Function & Micturition
+- 2026-04-09 07:15:21: Wikifying orphan: Renal Function & Micturition
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Core Concepts in Dialysis and Continuous Therapies
+- 2026-04-09 07:15:21: Wikifying orphan: Core Concepts in Dialysis and Continuous Therapies
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: HANDBOOK OF DIALYSISTHERAPY
+- 2026-04-09 07:15:21: Wikifying orphan: HANDBOOK OF DIALYSISTHERAPY
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Animal Models for Peritoneal DialysisResearch 31
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Animal Models for Peritoneal DialysisResearch 31
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Automated Peritoneal Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Automated Peritoneal Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Basic Science and Translational Research in Peritoneal Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Basic Science and Translational Research in Peritoneal Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Blood Pressure Control in Peritoneal 13 Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Blood Pressure Control in Peritoneal 13 Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Ch03_Patient_Survival_Comparisons
+- 2026-04-09 07:15:21: Wikifying orphan: Ch03_Patient_Survival_Comparisons
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Ch04_Peritoneal_Structure_and_Changes
+- 2026-04-09 07:15:21: Wikifying orphan: Ch04_Peritoneal_Structure_and_Changes
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Ch05_Physiology_and_Pathophysiology_of_Peritoneal_Transport
+- 2026-04-09 07:15:21: Wikifying orphan: Ch05_Physiology_and_Pathophysiology_of_Peritoneal_Transport
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Ch07_PD_Access_and_Exit-Site_Care
+- 2026-04-09 07:15:21: Wikifying orphan: Ch07_PD_Access_and_Exit-Site_Care
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: RKF and Dialysis Equivalency
+- 2026-04-09 07:15:21: Wikifying orphan: RKF and Dialysis Equivalency
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: CA125 in Serum During Various Conditions a
+- 2026-04-09 07:15:21: Wikifying orphan: CA125 in Serum During Various Conditions a
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Hernia
+- 2026-04-09 07:15:21: Wikifying orphan: Hernia
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Ch16_Protein-Energy_Wasting_During_PD
+- 2026-04-09 07:15:21: Wikifying orphan: Ch16_Protein-Energy_Wasting_During_PD
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: NG2023_Ch02
+- 2026-04-09 07:15:21: Wikifying orphan: NG2023_Ch02
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: NG2023_Ch06
+- 2026-04-09 07:15:21: Wikifying orphan: NG2023_Ch06
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: RKF and Dialysis Equivalency
+- 2026-04-09 07:15:21: Wikifying orphan: RKF and Dialysis Equivalency
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Introduction, qualifying statements, and key concepts
+- 2026-04-09 07:15:21: Wikifying orphan: Introduction, qualifying statements, and key concepts
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 1: Evaluation of CKD
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 1: Evaluation of CKD
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 2: Risk assessment in people with CKD
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 2: Risk assessment in people with CKD
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 3: Delaying CKD progression and managing its complications
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 3: Delaying CKD progression and managing its complications
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 4: Medication management and drug stewardship in CKD
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 4: Medication management and drug stewardship in CKD
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 5: Optimal models of care
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 5: Optimal models of care
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 6: Research recommendations
+- 2026-04-09 07:15:21: Wikifying orphan: Chapter 6: Research recommendations
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 004. Decision-Making in Clinical Medicine
+- 2026-04-09 07:15:21: Wikifying orphan: 004. Decision-Making in Clinical Medicine
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 090. Renal Cell Carcinoma
+- 2026-04-09 07:15:21: Wikifying orphan: 090. Renal Cell Carcinoma
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: ■ IMAGING AND RENAL BIOPSY INDICATIONS
+- 2026-04-09 07:15:21: Wikifying orphan: ■ IMAGING AND RENAL BIOPSY INDICATIONS
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Dialysis in the Treatment of Kidney Failure
+- 2026-04-09 07:15:21: Wikifying orphan: Dialysis in the Treatment of Kidney Failure
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Ch16
+- 2026-04-09 07:15:21: Wikifying orphan: Ch16
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 19
+- 2026-04-09 07:15:21: Wikifying orphan: 19
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 20
+- 2026-04-09 07:15:21: Wikifying orphan: 20
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 21
+- 2026-04-09 07:15:21: Wikifying orphan: 21
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Peritoneal Dialysis for the Treatment of Acute Kidney Injury
+- 2026-04-09 07:15:21: Wikifying orphan: Peritoneal Dialysis for the Treatment of Acute Kidney Injury
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Prescription of Maintenance Peritoneal Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Prescription of Maintenance Peritoneal Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Volume Status and Fluid Overload in Peritoneal Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Volume Status and Fluid Overload in Peritoneal Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Peritonitis and Exit-Site Infection
+- 2026-04-09 07:15:21: Wikifying orphan: Peritonitis and Exit-Site Infection
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Hernias, Leaks, and Encapsulating Peritoneal Sclerosis
+- 2026-04-09 07:15:21: Wikifying orphan: Hernias, Leaks, and Encapsulating Peritoneal Sclerosis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Metabolic, Acid-Base, and Electrolyte Aspects of Peritoneal Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Metabolic, Acid-Base, and Electrolyte Aspects of Peritoneal Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Psychosocial Issues
+- 2026-04-09 07:15:21: Wikifying orphan: Psychosocial Issues
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 31
+- 2026-04-09 07:15:21: Wikifying orphan: 31
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: 33
+- 2026-04-09 07:15:21: Wikifying orphan: 33
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Dialysis in Infants and Children
+- 2026-04-09 07:15:21: Wikifying orphan: Dialysis in Infants and Children
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Cardiovascular Disease
+- 2026-04-09 07:15:21: Wikifying orphan: Cardiovascular Disease
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Obstetrics and Gynecology in Patients Undergoing Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Obstetrics and Gynecology in Patients Undergoing Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Nervous System and Sleep Disorders
+- 2026-04-09 07:15:21: Wikifying orphan: Nervous System and Sleep Disorders
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Patient-Reported Outcomes and Experience Measures in Dialysis
+- 2026-04-09 07:15:21: Wikifying orphan: Patient-Reported Outcomes and Experience Measures in Dialysis
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: American Journal of Transplantation
+- 2026-04-09 07:15:21: Wikifying orphan: American Journal of Transplantation
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: INTERNATIONAL dney
+- 2026-04-09 07:15:21: Wikifying orphan: INTERNATIONAL dney
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Iney INTERNATIONAL
+- 2026-04-09 07:15:21: Wikifying orphan: Iney INTERNATIONAL
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Transplantation®
+- 2026-04-09 07:15:21: Wikifying orphan: Transplantation®
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Transplantation®
+- 2026-04-09 07:15:21: Wikifying orphan: Transplantation®
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: dney INTERNATIONAL
+- 2026-04-09 07:15:21: Wikifying orphan: dney INTERNATIONAL
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: SUPPLEMENT TO
+- 2026-04-09 07:15:21: Wikifying orphan: SUPPLEMENT TO
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: KDIGO 2026 CLINICAL PRACTICE GUIDELINE FOR ACUTE KIDNEY INJURY (AKI)AND ACUTE KI
+- 2026-04-09 07:15:21: Wikifying orphan: KDIGO 2026 CLINICAL PRACTICE GUIDELINE FOR ACUTE KIDNEY INJURY (AKI)AND ACUTE KI
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: Wikifying orphan: S U P P L E M E N T T O
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: INTERNATIONAL dney
+- 2026-04-09 07:15:21: Wikifying orphan: INTERNATIONAL dney
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Evaluation and Treatment of Chronic Kidney Disease-Mineral and Bone Disorder (CK
+- 2026-04-09 07:15:21: Wikifying orphan: Evaluation and Treatment of Chronic Kidney Disease-Mineral and Bone Disorder (CK
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Update of the KDOQI™ Clinical Practice Guideline for Hemodialysis Adequacy
+- 2026-04-09 07:15:21: Wikifying orphan: Update of the KDOQI™ Clinical Practice Guideline for Hemodialysis Adequacy
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: Wikifying orphan: Update of the KDOQI™ Clinical Practice Guideline for Hemodialysis Adequacy
+- 2026-04-09 07:15:21: Wikifying orphan: Update of the KDOQI™ Clinical Practice Guideline for Hemodialysis Adequacy
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: LLM API Error: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8001): Failed to establish a new connection: [Errno 61] Connection refused"))
+- 2026-04-09 07:15:21: No new nephro orphans to process.
+- 2026-04-09 07:15:21: No new nephro orphans to process.
+- 2026-04-09 07:15:21: Syncing updates from canonical wiki...
+- 2026-04-09 07:15:21: Syncing updates from canonical wiki...
+- 2026-04-09 07:15:21: Generating candidate MCQs...
+- 2026-04-09 07:15:21: Generating candidate MCQs...
+- 2026-04-09 07:15:21: Pushing updates to GitHub...
+- 2026-04-09 07:15:21: Pushing updates to GitHub...
