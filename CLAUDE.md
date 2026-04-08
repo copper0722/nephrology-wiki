@@ -72,10 +72,10 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 
 | author | model | access | role | schedule |
 |---|---|---|---|---|
-| **Claude Sonnet** | Sonnet 4.6 | vault local + cloud | workhorse author, /med-read pipeline, bulk wikify | continuous |
-| **Codex** | GPT-5.4 | vault via CC plugin | independent contributor, adversarial perspective, gap fill | on dispatch or weekly |
+| **Claude Opus** (local) | Opus 4.6 | vault hm4 | primary author + **Editor-in-Chief**: writes wiki, daily editorial audit, methodology compliance (Guyatt/Hernán) | continuous write + daily review |
+| **Claude Opus** (cloud) | Opus 4.6 | GitHub clone | primary author: PubMed→OA→/med-read→wiki, q6h scheduled | q6h auto |
+| **Codex** | GPT-5.4 | vault via CC plugin | independent contributor, adversarial perspective, gap fill | daily |
 | **Gemma 4** | Gemma 4 | vault raw .md (read-only) | independent contributor, alternative perspective, bulk processing | on dispatch |
-| **Claude Opus** | Opus 4.6 | vault local | **Editor-in-Chief**: periodic audit, methodology compliance (Guyatt/Hernán), quality gate | weekly editorial review |
 
 **Protocol:**
 1. All three read from same source: vault `ref/` raw.md + `proj/wiki/` canonical wiki
@@ -91,8 +91,8 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 - [ ] {topic} — dispatch:{author}:{mode} ({date})
 ```
 
-**Editorial Review (Opus, weekly):**
-1. Read all wiki .md modified since last review (`git log --since="7 days"`)
+**Editorial Review (Opus, daily):**
+1. Read all wiki .md modified since last review (`git log --since="1 day"`)
 2. Check each entry against /med-read methodology standards:
    - Article entries: PICO present? GRADE rated? Causal claims checked? Nephro bias flagged?
    - Textbook entries: key numbers preserved? No factual errors?
@@ -106,11 +106,34 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 
 19 wiki files, 3,375 lines. Topics: AKI, anemia, CKD (4 parts), HD, PD, electrolytes, HTN, cardiology, endocrinology, infectious disease, hematology, nutrition, public health, EBM methods, general medicine.
 
+## Question Bank Strategy
+
+**Two sources:**
+
+| source | flow | priority |
+|---|---|---|
+| **Copper-provided** (真實考題) | Copper 提供 → 存入 `cme/bank/` → Opus editorial review → publish | 最高（真題） |
+| **Taiwan case reports** | `taiwan-nephro-cases.py` (cron Wed) → /med-read → wiki + CME question generation | 高（出題委員常出自己的 case） |
+| **NephSAP** (ASN CME) | 17+ issues in vault (`proj/medical-note/nephsap/`) → /med-read → extract Q&A → reformat | 極高（官方 CME，大量 case-based MCQ） |
+| **Auto-generated** | wiki content → LLM generates MCQ → Opus review | 補充 |
+
+**Why Taiwan case reports matter:** TSN 出題委員常出自己投稿的案例。Taiwan-authored nephrology case reports = 高機率考題來源。Pipeline 已在跑（1,676 篇 found, 100 OA downloaded）。
+
+**Copper-provided 真題 protocol:**
+1. Copper 提供題目（任何格式：照片、文字、口述）
+2. Agent 存入 `cme/bank/raw/` (§1.8 save raw first)
+3. 整理成標準 CME format（_template.md）
+4. Cross-link to wiki topic
+5. Opus editorial review
+6. Publish to `cme/` (public) — **去除任何可辨識考題來源的資訊**（改寫 vignette，不直接用原題）
+
 ## TODO
 - [ ] 考古題 gap analysis: 115年考題 vs 現有 wiki coverage — dd:auto (2026-04-08)
 - [ ] Brenner 11e 章節 mapping → wiki topics — plan:auto (2026-04-08)
 - [ ] Nissenson 6e wikify (116年考試) — dd:auto (2026-04-08)
 - [ ] Export script: vault wiki → repo wiki (filtered + reformatted) — plan:auto (2026-04-08)
+- [ ] Taiwan case reports → CME questions: batch convert downloaded OA cases to MCQ format — dd:auto (2026-04-08)
+- [ ] CME section setup (Codex designing) — plan:auto (2026-04-08)
 
 ## Changelog
 
