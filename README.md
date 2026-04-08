@@ -86,3 +86,32 @@ TSN 腎臟專科醫師甄審筆試 + 口試準備資源。以多個 LLM（Claude
 ## 授權
 
 CC BY-NC-SA 4.0｜非醫療建議，僅供教育與研究用途。
+
+## 💡 關於我們的 AI 方法學 (Our Multi-Agent Methodology)
+
+這個 Repo 並非由單一人類或單一 AI 獨立撰寫，而是透過 **Multi-Author Agent Model (多模型協作架構)** 在本地端自動巡檢、對抗與生成的結果。我們公開這個方法學，希望不僅幫助考生閱讀知識，也能讓有興趣的醫師或開發者了解現代醫學知識庫是如何透過自動化管道大規模建立的。
+
+### 協作團隊與職責
+
+本知識庫的背後有三位獨立的 LLM (Large Language Model) 進行非同步協作：
+
+1. **Gemma 4 (The Builder / Bulk Processor)**
+   - **職責**：知識鋪磚與缺口填補。
+   - **排程**：每 2 小時自動巡檢。
+   - **工作邏輯**：她會自動追蹤考題缺口 (Gap analysis)，讀取並濃縮海量的教科書與文獻原始檔（Raw .md），並將其結構化為適合考試閱讀的筆記格式，大量擴充知識庫基礎。
+
+2. **Claude 3.5 Sonnet / Opus (The Workhorse & Editor-in-Chief)**
+   - **職責**：EBM (實證醫學) 方法學把關、主力寫手與每週統籌。
+   - **排程**：持續執行文獻讀取 (`/med-read` pipeline) 與每週發布審查。
+   - **工作邏輯**：確保每一條納入的醫學 Guideline 與 Paper 符合 EBM 框架（如 GRADE、NNT 等），並且過濾掉有方法學瑕疵的結論。
+
+3. **OpenAI Codex / GPT-5.4 (The Adversarial Reviewer)**
+   - **職責**：獨立的「對抗性審閱者 (Adversarial Reviewer)」。
+   - **排程**：每天自動啟動一次 (Daily execution)。
+   - **工作邏輯**：他被設定為「**挑錯者**」。他會自動檢查 Gemma 與 Claude 寫好的檔案，從不同的醫學邏輯維度去挑戰、抓錯。如果有爭議或考題常見的 Distractor，他會直接在文件中補上 `Codex:` 的批註，協助考生釐清盲點。
+
+### 資料流 (Pipeline) 的運作方式
+- **Ingestion**：PDF/文獻進入 Vault → 轉換成 M2M (Machine-to-Machine) 可讀的 Raw.md。
+- **Evaluation**：各模型讀取 Raw.md，並將臨床珍珠、試驗數據與證據等級 (GRADE) 抽取出來。
+- **Consolidation**：最後依據考題邏輯（而非純學術邏輯）重新將知識點安置於各個 Markdown 檔案中。
+- **Push**：所有過程皆在本地伺服器內自動完成，確認無隱私病人數據後，透過 git 腳本自動推送到這個公開的 GitHub 專案。
