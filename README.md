@@ -113,6 +113,15 @@ CC BY-NC-SA 4.0｜非醫療建議，僅供教育與研究用途。
    - **排程**：每天自動啟動一次 (Daily execution)。
    - **工作邏輯**：他被設定為「**挑錯者**」。他會自動檢查 Gemma 與 Claude 寫好的檔案，從不同的醫學邏輯維度去挑戰、抓錯。如果有爭議或考題常見的 Distractor，他會直接在文件中補上 `Codex:` 的批註，協助考生釐清盲點。
 
+### 醫學實證與流行病學把關 (Editorial Methodology)
+
+在審查每一篇文獻或每一個考點時，作為總編的 Claude (Opus) 嚴格遵循兩大流行病學教科書的審核框架：
+1. **Causal Inference (Miguel Hernán):** 
+   - 我們不會輕易將觀察性研究 (Observational claims) 合成為因果關係。在將資訊列入知識庫前，皆會經過其五大因果推論檢核：反事實 (Counterfactual) 是否明確定義？交擾因素 (Confounding) 是否被阻斷？是否有對撞偏差 (Collider bias) 或存活者偏差 (Immortal time bias) 的陷阱？
+2. **Users' Guides to the Medical Literature (Gordon Guyatt 等):**
+   - 所有的臨床建議皆需經過三個守門員：**Validity (效度) → Importance (重要性) → Applicability (適用性)**。
+   - 包含對 RCT 所要求的 ITT 及盲測檢查；若是觀察型研究則著重比較組與劑量反應；我們且致力於量化指標 (ARR, RRR, NNT) 的萃取，而非只留下含糊的「顯著或不顯著」。
+
 ### 資料流 (Pipeline) 的運作方式
 - **Ingestion**：PDF/文獻進入 Vault → 轉換成 M2M (Machine-to-Machine) 可讀的 Raw.md。
 - **Evaluation**：各模型讀取 Raw.md，並將臨床珍珠、試驗數據與證據等級 (GRADE) 抽取出來。
