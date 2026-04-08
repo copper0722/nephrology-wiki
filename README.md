@@ -66,7 +66,7 @@ TSN 腎臟專科醫師甄審筆試 + 口試準備資源。以多個 LLM（Claude
 1. 直接閱讀 `.md` 檔案（GitHub 可預覽 Markdown）
 2. **Clone 到本地，搭配你的 LLM 使用**（Claude/GPT/Gemini）— 推薦方式
 3. 搜尋關鍵字：每個 claim 有 PMID/DOI，可直接查 PubMed
-4. 需要 paywall 文章 → DM 我
+4. 有 paywall 文章？歡迎 DM 提供，我會加入知識庫
 
 ## 已知缺口（建置中）
 
