@@ -1,64 +1,38 @@
 ---
 type: wiki
 generated: 2026-04-09
+source: proj/wiki/raw/registry/anzdata_2025_ch05_peritoneal_dialysis/raw.md
 tags: [nephrology]
 author: gemma4
 ---
 
-# Wiki: Peritoneal Dialysis (PD) - ANZDATA 2025 Report
+# Peritoneal Dialysis Trends and Outcomes (ANZDATA 2025)
 
-## 📌 Overview
-Analysis of PD incidence, prevalence, and outcomes in Australia (AU) and New Zealand (NZ) for the 2024 survey period.
+## Exam Logic
+This registry data highlights the real-world epidemiology and failure modes of **Peritoneal Dialysis (PD)**. For exam purposes, focus on the following:
+*   **Modality Choice:** PD remains the dominant choice for **paediatric patients** (75-80% in AU/NZ), a key demographic differentiator.
+*   **Failure Modes:** The most common reason for transfer to haemodialysis (HD) is **infection** (peritonitis), overtaking inadequate dialysis. This reinforces the clinical priority of catheter care and aseptic technique.
+*   **Technical Trends:** There is a strong preference for **Automated PD (APD)** over CAPD (approx. 70% vs 30%), reflecting a shift toward improved patient quality of life and better solute clearance.
+*   **Pitfalls:** Do not confuse "culture-negative peritonitis" with "no infection." High rates of culture-negative results (up to 44% in some regions) often reflect suboptimal sampling or the use of antibiotics prior to culture, rather than a lack of pathogen.
 
-## 📊 Epidemiology & Usage
-### Prevalence & Modality Trends
-*   **Overall Prevalence:** Stable in AU (~17% of all dialysis patients) and NZ (~23%).
-*   **Home Dialysis Share:** PD is the dominant home modality (AU: 72%, NZ: 66%).
-*   **Pediatrics:** Strong preference for PD (AU: 75%, NZ: 80%).
-*   **Modality Split:** **Automated PD (APD)** significantly outweighs **Continuous Ambulatory PD (CAPD)**.
-    *   AU: 73% APD vs 27% CAPD.
-    *   NZ: 66% APD vs 34% CAPD.
-*   **Hybrid Dialysis:** Very low utilization (AU: n=35, NZ: n=1).
+## Key Registry Data (2024)
+*   **Demographics:** 
+    *   Peak incident age: 65-74 years (AU), 55-64 years (NZ).
+    *   Primary Cause: **Diabetic Kidney Disease** (30% AU, 41% NZ).
+*   **Modality Distribution:**
+    *   **APD vs CAPD:** APD is significantly more prevalent (AU: 73% vs 27%).
+    *   **Hybrid Dialysis:** Remains very rare.
+*   **Fluid Usage:**
+    *   **Icodextrin:** High variability between regions; used to increase ultrafiltration (UF) and manage fluid overload.
+    *   **Low GDP:** Stable but low usage (6-22%).
+*   **Peritonitis (Australia):**
+    *   **Rate:** 0.27 episodes per patient-year (meets ISPD target of <0.4).
+    *   **Culture Negatives:** Highly variable; some regions significantly exceed the ISPD recommended 15% threshold.
 
-### Patient Demographics (Incident 2024)
-*   **Peak Age Group:** 
-    *   AU: 65–74 years (26%).
-    *   NZ: 55–64 years (26%).
-*   **Primary Etiology:** **Diabetic Kidney Disease (DKD)** remains the leading cause (AU: 30%, NZ: 41%), though proportions are declining compared to previous years.
+## Textbook References
+*   **Daugirdas:** *Handbook of Peritoneal Dialysis* — Chapters on Peritonitis Management and Solute Transport.
+*   **Brenner & Rector:** *The Kidney* — Section on Dialysis Modalities and Home Therapies.
+*   **Nissenson:** *Nephrology* — Chapter on Peritoneal Dialysis Complications.
 
-## 🛠️ Clinical Practice & Management
-### Dialysis Fluids
-*   **Icodextrin:** Marked geographic variation.
-    *   AU: Decreasing trend (47% in 2024; significant drop in CAPD users).
-    *   NZ: Increasing trend (79% in 2024).
-*   **Low GDP Solutions:** Stable usage (AU: 22%, NZ: 6%).
-
-### Initiation Timelines
-*   **Early Start (14 days post-catheter):**
-    *   AU: Slight increase (17%).
-    *   NZ: Decrease (10%).
-
-## 📉 Outcomes & Survival
-### Cessation of PD
-*   **Primary Reasons for Transfer to HD:** 
-    *   **Infection** (Most common reason in 2024).
-    *   Inadequate dialysis (Previously leading in AU 2023, now overtaken by infection).
-*   **Survival Curves:** Stable for patients starting PD within one year of KRT.
-*   **Time on Therapy:** Distribution is steeply right-skewed; majority of prevalent patients have been on PD < 5 years.
-
-## ⚠️ Peritonitis (AU Data Only)
-*   **Incidence Rate:** 0.27 episodes per patient-year (meets **ISPD target** of < 0.4).
-*   **Regional Variation:** Significant (0.0 to 0.8). Northern Territory showed improvement (0.38 vs 0.75 in 2023).
-*   **Culture-Negative Peritonitis:** 
-    *   **ISPD Target:** 15\%.
-    *   **Actuals:** Disproportionately high in ACT (44%) and SA (43%), though WA improved (22%).
-
-## 🎓 Exam Logic / Key Takeaways
-| Feature | Exam Fact |
-| :--- | :--- |
-| **Modality Preference** | APD  CAPD |
-| **Pediatric Choice** | PD is the primary modality (75-80\%) |
-| **Leading Etiology** | Diabetic Kidney Disease |
-| **HD Transfer** | Infection is the leading cause of PD failure/transfer |
-| **Quality Metric** | AU peritonitis rates are within ISPD guidelines (< 0.4/py) |
-| **Fluid Trends** | Icodextrin use is diverging ( ↓ AU, ↑ NZ) |
+## Key Trials
+*   **ISPD Guidelines (Ongoing/Updated):** Sets the global benchmark for peritonitis rates (Target: <0.4 episodes/patient-year) and culture-negative thresholds (Target: 15%).
