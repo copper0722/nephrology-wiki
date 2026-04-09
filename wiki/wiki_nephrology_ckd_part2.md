@@ -211,7 +211,7 @@ Numbers: N/A
 
 ## Cross-references (FB posts)
 
-- [wiki fb nephrology ckd](/proj/wiki/wiki_fb_nephrology_ckd.md)
+- [wiki fb nephrology ckd](/wiki/wiki_fb_nephrology_ckd.md)
 
 ## NEJM Nephrology Backfill (2026-04-06)
 

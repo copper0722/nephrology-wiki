@@ -74,7 +74,7 @@ Numbers: Hundreds of microlithiasis on MRCP; AST/ALT mildly elevated
 
 ## Cross-references (FB posts)
 
-- [wiki fb nephrology dialysis](/proj/wiki/wiki_fb_nephrology_dialysis.md)
+- [wiki fb nephrology dialysis](/wiki/wiki_fb_nephrology_dialysis.md)
 
 ### Batch wikify: ref/articles (2026-04-05, 2 articles)
 

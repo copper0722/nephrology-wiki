@@ -90,7 +90,7 @@ Numbers: 6 FDA-approved xenotransplants as of Feb 2025 (2 heart, 4 kidney); 52-d
 
 ## Cross-references (FB posts)
 
-- [wiki fb nephrology ckd](/proj/wiki/wiki_fb_nephrology_ckd.md)
+- [wiki fb nephrology ckd](/wiki/wiki_fb_nephrology_ckd.md)
 
 ### Batch wikify: ref/articles (2026-04-05, 16 articles)
 

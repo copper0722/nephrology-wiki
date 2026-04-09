@@ -187,7 +187,7 @@ Key: Comprehensive follow-up program (clinic visits, phone support, 24h hotline,
 Clinical: Demonstrates remote PD feasible with structured follow-up. Hub (大學醫院 Guangzhou) + satellite centers + telemedicine = de facto hub-spoke in developing country.
 
 ### RM-APD vs Conventional APD in Taiwan — Chung2025Taiwan
-→ See dedicated wiki: [Chung2025Taiwan.md](/proj/wiki/Chung2025Taiwan.md)
+→ See dedicated wiki: [Chung2025Taiwan.md](/wiki/Chung2025Taiwan.md)
 DOI: 10.1111/nep.70061. Taiwan TCVGH n=177. RM-APD peritonitis HR 0.39 (0.15-0.96). Zero relapse, zero infection-driven HD transfer.
 
 ### CQI Impact on PD Outcomes: Jinling — Yu2014CQI
@@ -214,4 +214,4 @@ Clinical: Gold-standard reference for building a PD program. Tables 1-22 = opera
 
 ## Cross-references (FB posts)
 
-- [wiki fb nephrology dialysis](/proj/wiki/wiki_fb_nephrology_dialysis.md)
+- [wiki fb nephrology dialysis](/wiki/wiki_fb_nephrology_dialysis.md)

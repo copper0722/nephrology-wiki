@@ -20,7 +20,7 @@ GitHub: `copper0722/nephrology-wiki` (public)
 ```
 Sources (textbooks, reviews, guidelines)
   ↓ /med-read
-Vault canonical wiki (proj/wiki/)
+Vault canonical wiki (wiki/)
   ↓ filter: exam-relevant topics only
   ↓ reformat: key facts + 考題邏輯 (not full EBM appraisal)
 This repo (repos/nephrology-wiki/wiki/)
@@ -63,7 +63,7 @@ Based on 2025 exam recall (~160 questions), this repo covers ONLY these 8 sectio
 
 **Rule**: if a topic's renal intersection is already covered in a nephrology wiki entry (e.g., renal anemia in CKD wiki), do NOT create a standalone non-nephro file. Renal-adjacent content belongs INSIDE the nephrology topic file.
 
-Source: `proj/wiki/wiki_tsn_board_exam.md` — 2025 考古題 recall analysis.
+Source: `wiki/wiki_tsn_board_exam.md` — 2025 考古題 recall analysis.
 
 ## Content Rules
 
@@ -90,7 +90,7 @@ Source: `proj/wiki/wiki_tsn_board_exam.md` — 2025 考古題 recall analysis.
 
 ## ⚠️ PUBLIC FOLDER — No Personal Data
 
-This folder is an **open git repo pushed to public GitHub**. Symlinked at `proj/wiki/nephrology-wiki/`.
+This folder is an **open git repo pushed to public GitHub**. Symlinked at `wiki/nephrology-wiki/`.
 
 **NEVER put inside this folder:**
 - Patient data, clinic info, personal notes
@@ -105,7 +105,7 @@ All agents MUST check: am I writing to `nephrology-wiki/`? If yes → public-saf
 ## Management
 
 - **Managed in vault** (`repos/nephrology-wiki/`), not on GitHub directly
-- Symlink: `proj/wiki/nephrology-wiki/` → `repos/nephrology-wiki/`
+- Symlink: `wiki/nephrology-wiki/` → `repos/nephrology-wiki/`
 - One place to manage, vault = source of truth
 - `git push` → GitHub public mirror
 
@@ -121,7 +121,7 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 | **Gemma 4** | Gemma 4 | vault raw .md (read-only) | independent contributor, alternative perspective, bulk processing | on dispatch |
 
 **Protocol:**
-1. All three read from same source: vault `ref/` raw.md + `proj/wiki/` canonical wiki
+1. All three read from same source: vault `ref/` raw.md + `wiki/` canonical wiki
 2. Each writes to `repos/nephrology-wiki/wiki/` — same files, merge on conflict
 3. Claude = final arbiter on methodology (Guyatt/Hernán compliance)
 4. Codex = adversarial review: challenges Claude's appraisals, catches errors
@@ -193,7 +193,7 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
    → export to repos/nephrology-wiki/wiki/ (exam format)
 
 4. Scan vault wiki for updates since last run:
-   → git log --since="last run" -- proj/wiki/wiki_nephrology_*.md
+   → git log --since="last run" -- wiki/wiki_nephrology_*.md
    → re-export updated topics to repo
 
 5. CME question generation:

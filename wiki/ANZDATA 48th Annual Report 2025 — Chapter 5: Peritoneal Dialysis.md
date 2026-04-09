@@ -1,7 +1,7 @@
 ---
 type: wiki
 generated: 2026-04-09
-source: proj/wiki/raw/registry/anzdata_2025_ch05_peritoneal_dialysis/raw.md
+source: wiki/raw/registry/anzdata_2025_ch05_peritoneal_dialysis/raw.md
 tags: [nephrology]
 author: gemma4
 ---

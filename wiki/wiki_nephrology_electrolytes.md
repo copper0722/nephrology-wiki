@@ -32,9 +32,9 @@ Numbers: eGFR 15–<60 ml/min/1.73m²; baseline K+ 5.1–<6.5 mmol/L; age 18–8
 
 ## Cross-references (FB posts)
 
-- [wiki fb nephrology electrolyte](/proj/wiki/wiki_fb_nephrology_electrolyte.md)
+- [wiki fb nephrology electrolyte](/wiki/wiki_fb_nephrology_electrolyte.md)
 
-- [wiki fb nephrology dialysis](/proj/wiki/wiki_fb_nephrology_dialysis.md)
+- [wiki fb nephrology dialysis](/wiki/wiki_fb_nephrology_dialysis.md)
 
 ### Batch wikify: ref/articles (2026-04-05, 13 articles)
 

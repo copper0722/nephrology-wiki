@@ -218,7 +218,7 @@ Numbers: 5.37B diabetics globally (2021); projected 7.84B by 2045; 40%+ develop 
 
 ## IgAN Targeted Therapy: VISIONARY (Sibeprenlimab) & ORIGIN 3 (Atacicept) (kb/nephrology)
 
-Source: kb/nephrology/VISIONARY（sibeprenlimab）與ORIGIN 3（atacicept）期中分析 - IgAN.md + proj/wiki/igan_targeted_therapy.md
+Source: kb/nephrology/VISIONARY（sibeprenlimab）與ORIGIN 3（atacicept）期中分析 - IgAN.md + wiki/igan_targeted_therapy.md
 
 - **VISIONARY (sibeprenlimab)**: Phase 3, anti-APRIL mAb. 24-week interim: proteinuria reduction ~50% vs placebo; favorable safety.
 - **ORIGIN 3 (atacicept)**: Phase 3, TACI-Fc (blocks APRIL + BLyS). Interim: significant proteinuria reduction; eGFR slope benefit emerging.
@@ -228,7 +228,7 @@ Source: kb/nephrology/VISIONARY（sibeprenlimab）與ORIGIN 3（atacicept）期�
 
 ## Cross-references
 
-- [wiki fb nephrology ckd](/proj/wiki/wiki_fb_nephrology_ckd.md) — FB CKD posts (292)
+- [wiki fb nephrology ckd](/wiki/wiki_fb_nephrology_ckd.md) — FB CKD posts (292)
 - [wiki_nephrology_ckd_part2.md](wiki_nephrology_ckd_part2.md) — CKD management: conservative, transplant
 - [wiki_nephrology_ckd_part3.md](wiki_nephrology_ckd_part3.md) — CKD comorbidities: CVD, bone, metabolic
 - [wiki_nephrology_ckd_part4.md](wiki_nephrology_ckd_part4.md) — CKD recent: trials, guidelines

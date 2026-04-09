@@ -27,4 +27,4 @@ Numbers: AKI patients in ESRD facilities: 6,400 (2017) → 11,964 (2020); 30% re
 
 ## Cross-references (FB posts)
 
-- [wiki fb nephrology ckd](/proj/wiki/wiki_fb_nephrology_ckd.md)
+- [wiki fb nephrology ckd](/wiki/wiki_fb_nephrology_ckd.md)

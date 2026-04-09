@@ -66,9 +66,9 @@ Numbers: 103 sites; inclusion SBP 140–180, DBP 65–110 (or DBP 90–110 regar
 
 ## Cross-references (FB posts)
 
-- [wiki fb cardiology](/proj/wiki/wiki_fb_cardiology.md)
+- [wiki fb cardiology](/wiki/wiki_fb_cardiology.md)
 
-- [wiki fb nephrology ckd](/proj/wiki/wiki_fb_nephrology_ckd.md)
+- [wiki fb nephrology ckd](/wiki/wiki_fb_nephrology_ckd.md)
 
 ### Batch wikify: ref/articles (2026-04-05, 13 articles)
 

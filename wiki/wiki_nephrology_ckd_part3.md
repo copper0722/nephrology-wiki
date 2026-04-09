@@ -241,5 +241,5 @@ Raw: [raw.md](/ref/articles/Negri2024Calcimimetics/raw.md) | PDF: [source.pdf](/
 
 ## Cross-references (FB posts)
 
-- [wiki fb nephrology ckd](/proj/wiki/wiki_fb_nephrology_ckd.md)
+- [wiki fb nephrology ckd](/wiki/wiki_fb_nephrology_ckd.md)
 - [wiki_nephrology_dialysis_hd.md](wiki_nephrology_dialysis_hd.md) — HD wiki (overlaps: CKD-MBD in dialysis patients)

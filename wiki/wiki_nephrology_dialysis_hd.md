@@ -221,8 +221,8 @@ All: Na 138 mEq/L, HCO3 32 mEq/L, acetate 3.0 mEq/L. B:A:water = 1:1.225:32.775;
 
 ## Cross-references
 
-- [wiki fb nephrology electrolyte](/proj/wiki/wiki_fb_nephrology_electrolyte.md) — FB electrolyte posts
-- [wiki fb nephrology dialysis](/proj/wiki/wiki_fb_nephrology_dialysis.md) — FB dialysis posts (549)
+- [wiki fb nephrology electrolyte](/wiki/wiki_fb_nephrology_electrolyte.md) — FB electrolyte posts
+- [wiki fb nephrology dialysis](/wiki/wiki_fb_nephrology_dialysis.md) — FB dialysis posts (549)
 - [wiki_nephrology_dialysis_pd.md](wiki_nephrology_dialysis_pd.md) — PD: ISPD guidelines, center effects
 - [wiki_nephrology_ckd_part1.md](wiki_nephrology_ckd_part1.md) — CKD core: GFR, staging, progression
 - [wiki_nephrology_electrolytes.md](wiki_nephrology_electrolytes.md) — electrolytes: hyperkalemia (overlaps: dialysate K+)
