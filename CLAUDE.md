@@ -38,6 +38,33 @@ GitHub (public, 考生使用)
 4. **一年內 review**: 考前掃 PubMed — KI/AJKD/JASN/CJASN/PedNephrol review articles within exam window
 5. **Gap fill priority**: 考古題出現但 wiki 沒有 → 最高優先 wikify
 
+## Scope — TSN Exam Topics ONLY
+
+Based on 2025 exam recall (~160 questions), this repo covers ONLY these 8 sections:
+
+| # | topic | examples |
+|---|---|---|
+| 01 | Electrolytes & acid-base | Na, K, Bartter, Gitelman, RTA, DI |
+| 02 | CKD-MBD & stones | Ca, Mg, P, FGF23, phosphate binders, renal osteodystrophy |
+| 03 | CKD & ESKD management | GFR, RRT, anemia, dermatology, geriatrics, palliative |
+| 04 | Transplant | rejection, immunosuppression, BKV, donor eval |
+| 05 | Hypertension | renovascular, aldosterone, ANP |
+| 06 | Glomerular diseases | FSGS, MN, MPGN, lupus nephritis, ANCA, IgAN, Alport |
+| 07 | AKI & toxicology | contrast, rhabdomyolysis, CRRT, urine studies |
+| 08 | Tubular/TMA/Pregnancy/Peds/Genetics | Fanconi, HUS/TTP, ADPKD, Fabry, pediatric NS |
+
+**EXCLUDED** (not part of TSN exam, belongs in vault canonical wiki only):
+- Standalone cardiology (arrhythmia, atherosclerosis) — unless cardiorenal
+- Standalone hematology (malignant/nonmalignant) — unless renal anemia
+- Standalone infectious disease — unless UTI/pyelonephritis/BKV
+- Standalone endocrinology — unless diabetic nephropathy/CKD-MBD
+- General medicine, nutrition, public health, EBM methods, dementia
+- Any topic not testable on TSN 腎臟專科甄試
+
+**Rule**: if a topic's renal intersection is already covered in a nephrology wiki entry (e.g., renal anemia in CKD wiki), do NOT create a standalone non-nephro file. Renal-adjacent content belongs INSIDE the nephrology topic file.
+
+Source: `proj/wiki/wiki_tsn_board_exam.md` — 2025 考古題 recall analysis.
+
 ## Content Rules
 
 - Language: M2M English (same as vault wiki — 考生也是醫師，能讀 M2M)

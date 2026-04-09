@@ -18,7 +18,12 @@ ORPHAN_SCANNER = os.path.join(VAULT_ROOT, "repos/vault-scripts/wiki-orphan-scan.
 LOCAL_LLM_URL = "http://localhost:8001/v1/chat/completions"
 MODEL_NAME = "dealignai/Gemma-4-31B-JANG_4M-CRACK"
 
-NEPHRO_KEYWORDS = ["kdigo", "daugirdas", "nolphgokal", "nephrology", "renal", "dialysis", "ckd", "aki"]
+NEPHRO_KEYWORDS = ["kdigo", "daugirdas", "nolphgokal", "nephrology", "renal", "dialysis", "ckd", "aki",
+                    "hemodialysis", "peritoneal", "kidney", "glomerular", "transplant", "electrolyte",
+                    "nephrotic", "nephritic", "crrt", "fistula", "graft", "eskd", "gfr"]
+# Exclude non-nephro topics that may contain nephro keywords incidentally
+NEPHRO_EXCLUDE = ["cardiology", "hematology", "infectious_disease", "general_medicine",
+                  "nutrition_metabolism", "public_health", "dementia", "alzheimer", "oncology"]
 BATCH_LIMIT = 1 
 MAX_INPUT_CHARS = 15000
 
@@ -71,10 +76,15 @@ def process_orphans():
             path = row['path']
             title = row['title']
             
-            if any(kw in path.lower() or kw in title.lower() for kw in NEPHRO_KEYWORDS):
-                full_raw_path = os.path.join(VAULT_ROOT, path)
-                if not os.path.exists(full_raw_path):
-                    continue
+            combined = (path + " " + title).lower()
+            if not any(kw in combined for kw in NEPHRO_KEYWORDS):
+                continue
+            if any(ex in combined for ex in NEPHRO_EXCLUDE):
+                continue
+
+            full_raw_path = os.path.join(VAULT_ROOT, path)
+            if not os.path.exists(full_raw_path):
+                continue
                 
                 canonical_path = os.path.join(CANONICAL_WIKI_DIR, f"wiki_nephrology_{title}.md")
                 if os.path.exists(canonical_path):
