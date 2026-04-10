@@ -40,20 +40,18 @@ source: Aitken2020 (AVF patency RCT, JASN)
 | **排名**                | #6         | #5          | #4              | 🥇              | 🥈                | 🥉               |
 | **定位**                | 不推薦        | 免費初稿        | 速查卡             | 最高品質            | 性價比之王             | 最快全面             |
 
-### Token 拆解
+### Token 附註
 
-| | total | output（估算）| context injection（推算）| tool calls | output 佔比 |
-|---|---|---|---|---|---|
-| **Gemma 4 8B** | 免費 | ~1,400 | — | — | — |
-| **Gemma 4 31B** | 免費 | ~1,200 | — | — | — |
-| **Codex (GPT-5.4)** | 21K | ~900 | ~20K | 1 | 4% |
-| **Claude Opus 4.6** | 33K | ~2,300 | ~31K | 5 | 7% |
-| **Claude Sonnet 4.6** | 25K | ~1,800 | ~23K | 3 | 7% |
-| **Claude Haiku 4.5** | 66K | ~2,100 | ~64K | 1 | 3% |
+| | total_tokens | output（從檔案大小估算）| tool calls |
+|---|---|---|---|
+| **Gemma 4 8B** | 免費 | ~1,400 | — |
+| **Gemma 4 31B** | 免費 | ~1,200 | — |
+| **Codex (GPT-5.4)** | 21K | ~900 | 1 |
+| **Claude Opus 4.6** | 33K | ~2,300 | 5 |
+| **Claude Sonnet 4.6** | 25K | ~1,800 | 3 |
+| **Claude Haiku 4.5** | 66K | ~2,100 | 1 |
 
-**結論：每個 sub-agent 真正「寫」的只有 1-2K tokens。其餘 93-97% 是 context injection**（vault CLAUDE.md 規則鏈 + tool schemas + agent 框架 prompt）。各模型首次 call 的 context injection 理論上相同（~50-60K）。Total 差異來自 agent 框架的 multi-call trimming：多次 call 的模型（Opus 5 calls, Sonnet 3 calls）因 context trimming 使 total 反而較低；Haiku 單次 call 無 trimming 故 total 最高。這是計量假象，非模型差異。
-
-**成本的真正決定因素 = input token 單價 × context 量**（各模型 context 量相同，單價差異巨大）。
+`total_tokens` = input + output 合計，由 agent 框架回報，無 per-call 明細。各模型實際產出僅 1-2K tokens，其餘為 context（vault rules + tool schemas + prompt）。Haiku total 最高的原因不明 — 可能與框架對不同模型的 context 載入策略有關，但無法從單一數字驗證。**勿以 total_tokens 比較模型效率。**
 
 ---
 
