@@ -13,71 +13,47 @@ source: Aitken2020 (AVF patency RCT, JASN)
 
 ---
 
-## 模型一覽
+## 六模型綜合比較（截圖用）
 
-| 模型 | 類型 | Token 消耗 | 生成時間 | 成本 |
-|---|---|---|---|---|
-| **Gemma 4 8B** (Q4_K_M) | 本地 ollama | 0（免費） | 41 秒 | $0 |
-| **Gemma 4 31B** (Q4_K_M) | 本地 ollama | 0（免費） | 189 秒 | $0 |
-| **Codex (GPT-5.4)** | ChatGPT Plus quota | 21,176* | 253 秒 | Plus 月費內 |
-| **Claude Opus 4.6** | Anthropic API | 32,967 | 88 秒 | ~$0.50 |
-| **Claude Sonnet 4.6** | Anthropic API | 25,121 | 60 秒 | ~$0.10 |
-| **Claude Haiku 4.5** | Anthropic API | 65,730 | 32 秒 | ~$0.03 |
+|                       | Gemma 4 8B | Gemma 4 31B | Codex (GPT-5.4) | Claude Opus 4.6 | Claude Sonnet 4.6 | Claude Haiku 4.5 |
+| --------------------- | ---------- | ----------- | --------------- | --------------- | ----------------- | ---------------- |
+| **類型**                | 本地 ollama  | 本地 ollama   | ChatGPT Plus    | Anthropic API   | Anthropic API     | Anthropic API    |
+| **Token（含 context）**  | 0（免費）      | 0（免費）       | 21K（Plus 額度）    | 33K             | 25K               | 66K†             |
+| **生成時間**              | 41s        | 189s        | 253s            | 88s             | 60s               | 32s              |
+| **成本**                | $0         | $0          | 月費內             | ~$0.50          | ~$0.10            | ~$0.03           |
+| **── 資料 ──**          |            |             |                 |                 |                   |                  |
+| P-values / CI         | ❌ 漏        | ✅           | ✅               | ✅               | ✅                 | ✅                |
+| Fragility index       | ❌          | ❌           | ✅               | ✅               | ✅                 | ✅                |
+| RCF vs BCF 亞組         | ❌          | ❌           | ✅               | ✅               | ✅                 | ✅                |
+| 迴歸分析 OR 0.35          | ❌          | ❌           | ❌               | ✅               | ✅                 | ✅                |
+| Late maturation       | ❌          | ❌           | ❌               | ✅               | ✅                 | ✅                |
+| **── 臨床 ──**          |            |             |                 |                 |                   |                  |
+| 機轉深度                  | 基本         | 基本          | 簡潔              | 完整流程圖           | 分步驟               | 詳細               |
+| Distractor 分析         | 3 個        | + 為何錯       | 簡要              | 5 題＋表格          | 5 題 Q&A           | 5 個角度            |
+| NNT 計算                | ❌          | ❌           | ❌               | ✅ ≈5            | ❌                 | ❌                |
+| Causal check (Hernán) | ❌          | ❌           | ❌               | ✅ 四項            | ❌                 | ❌                |
+| **── 格式 ──**          |            |             |                 |                 |                   |                  |
+| LaTeX ban 合規          | ❌ 2處       | ❌ 3處        | ✅               | ✅               | ✅                 | ✅                |
+| 教科書章節號                | ❌          | ❌           | ✅               | ✅               | ✅                 | ✅                |
+| Key Trials 數          | 1          | 1           | 1               | 3               | 4                 | 4                |
+| **── 總評 ──**          |            |             |                 |                 |                   |                  |
+| **排名**                | #6         | #5          | #4              | 🥇              | 🥈                | 🥉               |
+| **定位**                | 不推薦        | 免費初稿        | 速查卡             | 最高品質            | 性價比之王             | 最快全面             |
 
-\* Codex 21,176 token 由 ChatGPT Plus quota 支付（GPT-5.4 側），不消耗 Claude Code token。CC 側僅花費數百 token overhead 用於傳送 prompt 和接收結果。
+### Token 拆解
 
----
+| | total | output（估算）| context injection（推算）| tool calls | output 佔比 |
+|---|---|---|---|---|---|
+| **Gemma 4 8B** | 免費 | ~1,400 | — | — | — |
+| **Gemma 4 31B** | 免費 | ~1,200 | — | — | — |
+| **Codex (GPT-5.4)** | 21K | ~900 | ~20K | 1 | 4% |
+| **Claude Opus 4.6** | 33K | ~2,300 | ~31K | 5 | 7% |
+| **Claude Sonnet 4.6** | 25K | ~1,800 | ~23K | 3 | 7% |
+| **Claude Haiku 4.5** | 66K | ~2,100 | ~64K | 1 | 3% |
 
-## 品質比較
+**結論：每個 sub-agent 真正「寫」的只有 1-2K tokens。其餘 93-97% 是 context injection**（vault CLAUDE.md 規則鏈 + tool schemas + agent 框架 prompt）。各模型首次 call 的 context injection 理論上相同（~50-60K）。Total 差異來自 agent 框架的 multi-call trimming：多次 call 的模型（Opus 5 calls, Sonnet 3 calls）因 context trimming 使 total 反而較低；Haiku 單次 call 無 trimming 故 total 最高。這是計量假象，非模型差異。
 
-### 1. 資料準確度
-
-| 指標 | Gemma 8B | Gemma 31B | Codex | Opus | Sonnet | Haiku |
-|---|---|---|---|---|---|---|
-| N=126 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Primary patency 79% vs 59% | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Functional patency 68% vs 49% | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| P-values (P=0.02, P<0.01) | ❌ 漏掉 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| OR + 95% CI | ❌ 無 CI | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Fragility index = 2 | ❌ 未提 | ❌ 未提 | ✅ | ✅ | ✅ | ✅ |
-| RCF vs BCF 亞組 | ❌ 未提 | ❌ 未提 | ✅ | ✅ | ✅ | ✅ |
-| 成本效益 ICER | ✅ 概述 | ✅ 概述 | ✅ | ✅ | ✅ | ✅ |
-| Logistic regression OR 0.35 | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Late maturation (n=24) | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
-
-### 2. 臨床深度
-
-| 面向 | Gemma 8B | Gemma 31B | Codex | Opus | Sonnet | Haiku |
-|---|---|---|---|---|---|---|
-| 機轉解釋 | 基本 | 基本 | 簡潔 | 完整流程圖 | 分步驟 | 詳細 |
-| Distractor 分析 | 列出 3 個 | 列出 + 為何錯 | 簡要 | 5 題 + 表格 | 5 題 Q&A | 5 個考試角度 |
-| 亞組解讀 | ❌ | ❌ | ✅ 點到 | ✅ 生物學解釋 | ✅ 機轉連結 | ✅ 比例效應 |
-| NNT 計算 | ❌ | ❌ | ❌ | ✅ (≈5) | ❌ | ❌ |
-| Fragility index 教學 | ❌ | ❌ | ✅ 一句 | ✅ 定義 + 考試意義 | ✅ 獨立段落 | ✅ 解釋 |
-| Causal reasoning (Hernán) | ❌ | ❌ | ❌ | ✅ 四項檢核 | ❌ | ❌ |
-| 臨床 bottom line | 一般 | 一般 | ✅ | ✅ NNT + 建議 | ✅ pearls | ✅ implementation |
-
-### 3. 格式合規
-
-| 規範 | Gemma 8B | Gemma 31B | Codex | Opus | Sonnet | Haiku |
-|---|---|---|---|---|---|---|
-| LaTeX ban | ❌ 2處 | ❌ 3處 | ✅ | ✅ | ✅ | ✅ |
-| Topic-based H1 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| ## Exam Logic | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| ## Textbook Ref | ❌ 無章節號 | ❌ 無章節號 | ✅ 有章節號 | ✅ 有章節號+內容 | ✅ 有描述 | ✅ 有章節號 |
-| ## Key Trials | ✅ 1篇 | ✅ 1篇 | ✅ 1篇 | ✅ 3篇 | ✅ 4篇 | ✅ 4篇 |
-| YAML frontmatter | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-
-### 4. 輸出效率
-
-| 模型 | 字數 | 行數 | 資訊密度 |
-|---|---|---|---|
-| Gemma 8B | ~2,100 | 57 | 低（有 filler） |
-| Gemma 31B | ~1,800 | 39 | 中 |
-| Codex | ~1,600 | 37 | 高（極簡） |
-| Opus | ~4,500 | 130 | 極高（最完整） |
-| Sonnet | ~3,800 | 152 | 高（結構清晰） |
-| Haiku | ~4,200 | 167 | 高（最長但全面） |
+**成本的真正決定因素 = input token 單價 × context 量**（各模型 context 量相同，單價差異巨大）。
 
 ---
 
