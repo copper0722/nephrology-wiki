@@ -16,7 +16,7 @@ REPO_ROOT = os.path.join(VAULT_ROOT, "repos/nephrology-wiki")
 ORPHAN_SCANNER = os.path.join(VAULT_ROOT, "repos/vault-scripts/wiki-orphan-scan.py")
 
 LOCAL_LLM_URL = "http://localhost:11434/v1/chat/completions"
-MODEL_NAME = "gemma4:latest"
+MODEL_NAME = "gemma4:31b-it-q4_K_M"
 
 NEPHRO_KEYWORDS = ["kdigo", "daugirdas", "nolphgokal", "nephrology", "renal", "dialysis", "ckd", "aki",
                     "hemodialysis", "peritoneal", "kidney", "glomerular", "transplant", "electrolyte",
