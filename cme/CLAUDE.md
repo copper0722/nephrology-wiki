@@ -169,9 +169,3 @@ Candidate progress is tracked at module level, not per hidden database.
 - [ ] Build first-pass module map from existing `wiki/` coverage — dispatch:auto (2026-04-08)
 - [ ] Add CKD management module from `../wiki/wiki_nephrology_ckd_part2.md` — dispatch:auto (2026-04-08)
 - [ ] Define module checklist growth rules in `README.md` as coverage expands — plan:auto (2026-04-08)
-
-## Changelog
-
-| date | summary |
-|---|---|
-| 2026-04-08 | CME protocol card created. Defined file layout, naming, TSN question format, answer standard, multi-author generation flow, review protocol, and progress tracking. |
