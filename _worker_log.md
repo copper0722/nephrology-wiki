@@ -3292,3 +3292,5 @@
 - 2026-04-11 20:10:10: Worker cycle completed successfully.
 - 2026-04-11 20:10:11: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
 - 2026-04-11 20:10:11: Wikifying orphan: Kidney Case Conference Series: How We Manage Hypertension in a Patient with a Re
+- 2026-04-11 20:20:11: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+- 2026-04-11 20:20:11: Wikifying orphan: Hemodialysis leukopenia. Pulmonary vascular leukostasis resulting from complemen
