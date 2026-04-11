@@ -3298,3 +3298,5 @@
 - 2026-04-11 20:30:11: Wikifying orphan: Impact of twice- or three-times-weekly maintenance hemodialysis on patient outco
 - 2026-04-11 20:40:11: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
 - 2026-04-11 20:40:11: Wikifying orphan: Mortality in Kidney Disease Patients Treated with Phosphate Binders: A Randomize
+- 2026-04-11 20:50:11: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+- 2026-04-11 20:50:11: Wikifying orphan: Serum Urate Lowering with Allopurinol and Kidney Function in Type 1 Diabetes
