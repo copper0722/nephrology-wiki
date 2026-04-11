@@ -3277,3 +3277,5 @@
 - 2026-04-11 19:10:10: Wikifying orphan: Current Management of Hyperkalemia in Patients on Dialysis
 - 2026-04-11 19:20:10: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
 - 2026-04-11 19:20:10: Wikifying orphan: Comparison of hemodialysis with medium cut-off dialyzer and on-line hemodiafiltr
+- 2026-04-11 19:30:10: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+- 2026-04-11 19:30:11: Wikifying orphan: Effects of Phosphate Binders in Moderate CKD
