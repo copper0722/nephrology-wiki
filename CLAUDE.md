@@ -19,7 +19,7 @@ GitHub: `copper0722/nephrology-wiki` (public)
 
 ```
 Sources (textbooks, reviews, guidelines)
-  ↓ /med-read
+  ↓ /med-read (now part of /wiki)
 Vault canonical wiki (wiki/)
   ↓ filter: exam-relevant topics only
   ↓ reformat: key facts + 考題邏輯 (not full EBM appraisal)
@@ -29,6 +29,22 @@ GitHub (public, 考生使用)
 ```
 
 **Vault → repo, NOT repo → vault.** Canonical wiki 是 upstream。This repo 是 downstream export。
+
+## Source Hierarchy — Textbook First (Law, 2026-04-12)
+
+**All textbooks are highly trusted sources for wiki.** For nephro-wiki specifically, nephrology textbooks are the primary source.
+
+| tier | source | trust level | use |
+|---|---|---|---|
+| **T1 — Nephrology textbooks** | Brenner & Rector 12e, Daugirdas 6e, Nissenson 6e, Harrison nephrology chapters | highest | **primary source for every wiki topic** |
+| T2 | KDIGO/KDOQI/ISPD guidelines (latest version) | very high | superseded by newer version |
+| T3 | Landmark RCTs + systematic reviews (NEJM/JAMA/Lancet/KI/JASN) | high | cite for specific evidence |
+| T4 | Society statements (TSN/ASN) | moderate-high | Taiwan-specific context |
+| T5 | Cohort studies, case series, review articles (non-landmark) | moderate | supplementary |
+
+**Rule:** every wiki entry MUST have textbook reference as primary anchor. Add secondary refs (RCTs/guidelines) on top. A wiki built only from journal articles without textbook backing = incomplete.
+
+**Textbook update rule:** always use latest edition. Older editions only for historical comparison. Brenner 11e (2020) archived; Brenner 12e (2026) canonical.
 
 ## Exam-Specific Protocol
 
