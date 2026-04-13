@@ -23,4 +23,4 @@ zh-TW、考試 perspective、人類讀。
 
 ## 與 slides 關係
 
-Slides 在另一 repo：`copper0722/nephro-board-review`。note 裡若需要 slide 對應，末尾附 link。
+Slides 在另一 repo：`copper0722/textbook-notes`。note 裡若需要 slide 對應，末尾附 link。
