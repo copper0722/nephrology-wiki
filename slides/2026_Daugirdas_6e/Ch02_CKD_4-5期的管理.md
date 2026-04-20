@@ -39,11 +39,17 @@ style: |
 
 # CKD 4-5 期的管理｜Management of CKD Stages 4 and 5
 
+
+---
+
 ## 01 核心決策框架
 - CKD 第 4 期（eGFR < 30）= 腎臟科接手時機
 - 多專科 predialysis program：病人/家屬教育、模式選擇、通路建立
 - 四大路徑：移植、居家透析、院內透析、保守治療
 - 決策時機：第 4 期啟動，勿拖至第 5 期
+
+
+---
 
 ## 02 治療模式光譜（Table 2.1）
 - Preemptive transplant：存活最佳，需 eGFR > 15 開始評估
@@ -52,11 +58,17 @@ style: |
 - In-center HD：排程固定，多數病人首選
 - Palliative care：老年 frail、多共病者考慮
 
+
+---
+
 ## 03 Preemptive Transplantation
 - 相對於透析：存活優勢明確
 - eGFR > 15 即開始 workup
 - 禁忌：嚴重依從性問題
 - 台灣限制：活體受限、屍體等候 5+ 年
+
+
+---
 
 ## 04 Home vs. In-center：證據水準
 - 觀察性研究：home HD 死亡率較低
@@ -64,11 +76,17 @@ style: |
 - In-center HD ≈ home PD 死亡率相當
 - 結論：依病人偏好選擇，非存活考量
 
+
+---
+
 ## 05 FHN Trial（Frequent HD）
 - RCT，每週 6 次 vs. 3 次（實際平均 5 次）
 - Primary outcomes：LVH 減少、physical function 改善
 - 次要：BP 改善、phosphate 微幅改善
 - 未改善：albumin、營養、anemia
+
+
+---
 
 ## 06 Incremental HD
 - 2 次/週起始可考慮
@@ -77,11 +95,17 @@ style: |
 - 亞洲研究：不受殘餘腎功能影響
 - 台灣：健保給付制度不利 incremental
 
+
+---
+
 ## 07 Peritoneal Dialysis
 - 美國 12%、加拿大 20-30%、台灣 ~10%
 - 適合：嬰幼兒、心血管不穩、通路困難、旅行需求
 - 禁忌：腹膜不適、peritonitis 反覆、高膜 transport
 - 進展：低 GDP、amino acid、icodextrin solutions
+
+
+---
 
 ## 08 Postponing Dialysis
 - 低/極低蛋白飲食 + ketoanalogues
@@ -90,17 +114,26 @@ style: |
 - KDIGO 2024 支持
 - 台灣實務：Ketosteril 健保條件嚴、飲食文化執行難
 
+
+---
+
 ## 09 Palliative Care（RPA Guidelines, Table 2.2）
 - 10 條成人建議：shared decision-making 為核心
 - Forgo dialysis：withhold 與 withdraw 倫理等價
 - Time-limited trial：不確定時的中庸方案
 - 台灣：《病人自主權利法》2019 施行提供法源
 
+
+---
+
 ## 10 老年與青少年透析
 - 老年（80+）：成長最快族群，依從性高彌補共病
 - Selection bias：能活到透析啟動者本身較健康
 - 青少年：心理社會議題主導，AVF 使用率低
 - 期望移植 → 用 percutaneous catheter 起始
+
+
+---
 
 ## 11 血管通路（AVF 為首選）
 - 雙臂靜脈保護：優先非慣用手
@@ -109,17 +142,26 @@ style: |
 - AVF 預計透析前 6-9 個月建立
 - PD catheter：預計透析前 ≥ 2 週
 
+
+---
+
 ## 12 Uremia 症狀與徵象
 - 症狀：晨起嘔吐、食慾差、疲倦、精神狀態改變
 - 徵象：pericarditis、encephalopathy、platelet dysfunction
 - Uremic pericarditis：3-component friction rub、tamponade 警覺
 - Encephalopathy：asterixis + MRI 廣泛異常 → 初始 HD 低清除率
 
+
+---
+
 ## 13 急性透析指徵（Table 2.3）
 - 緊急：neurologic dysfunction、pericarditis/pleuritis、bleeding diathesis
 - 常規難治：volume overload、hyperK、acidosis、hyperP、anemia、營養惡化
 - 關鍵：**難治性**而非 eGFR 數值
 - Pericarditis → 低抗凝；encephalopathy → 低清除率
+
+
+---
 
 ## 14 IDEAL Trial（早期 vs. 晚期透析）
 - 圖：Table 2.3
@@ -129,12 +171,18 @@ style: |
 - 結果：無差異（HR 1.04）→ 症狀驅動為上
 - 因果解讀：late arm crossover 多，per-protocol vs. ITT 差異
 
+
+---
+
 ## 15 HIF-PHI 與貧血矯正（Johansen 2023）
 - ASCEND-NHQ：CKD 3-5 期、Hb 8.5-10.0
 - HIF-PHI（daprodustat）target Hb 11-12 × 28 週
 - Primary：vitality score 改善（非 hard outcome）
 - 次要：↓ 輸血 → ↓ allosensitization
 - CV 安全性爭議未解
+
+
+---
 
 ## 16 台灣在地化要點
 - 多數病人第 5 期才轉腎臟科 → 錯失 predialysis 教育
@@ -143,6 +191,9 @@ style: |
 - Ketoanalogues 健保條件嚴
 - Palliative care 路徑未普及
 - NHI 按次給付不利 incremental HD
+
+
+---
 
 ## 17 臨床決策要點
 - 時機：第 4 期啟動，非第 5 期
