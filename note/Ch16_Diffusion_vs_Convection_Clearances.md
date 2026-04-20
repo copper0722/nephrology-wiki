@@ -1,0 +1,565 @@
+---
+_synced_from: ref/internal_medicine/nephrology/_textbooks/2026_Daugirdas_6e/Ch16_Diffusion_vs_Convection_Clearances.md
+_synced_at: '2026-04-20T12:43:54'
+title: 擴散與對流清除率的比較｜Diffusion vs Convection-Based Clearances (Hemodiafiltration)
+source_type: textbook-chapter
+citation: 'Canaud B, Davenport A. Hemodiafiltration. In: Daugirdas JT, ed. Handbook
+  of Dialysis. 6th ed. 2026: Ch 16.'
+note_version: medical-note-writer-v2.7
+generated: 2026-04-12
+tags:
+- nephrology
+- dialysis
+- hemodiafiltration
+- HDF
+- convective-clearance
+- uremic-toxins
+- b2-microglobulin
+- CONVINCE
+- textbook-chapter
+- daugirdas
+aliases:
+- Daugirdas6e_Ch16
+- HDF_Ch16
+Book: /ref/books/2026_Daugirdas_6e/MOC_Daugirdas2026.md
+Chapter: '16'
+citationKey: canaudHemodiafiltration2026
+PDF: ref/books/2026_Daugirdas_6e/Ch16/source.pdf
+---
+## KEY TAKEAWAYS
+
+- HDF = 擴散 + 強制對流的混合治療，可在劑量相關（dose-related）的方式下，擴展中大分子尿毒素的清除範圍；online HDF 全球逾 40 萬名 ESKD 病人使用，以歐洲與亞洲為主。
+- 後稀釋（postdilution）模式溶質清除效率最高，但需配合 blood flow $Q_B \geq 350$–$400$ mL/min；以 24 L/session（100 mL/min）或更高的總超過濾量為劑量目標；預稀釋等效劑量 ×2、混合稀釋 ×1.5（含 80% 後稀釋比例）。
+- β-2-microglobulin（11,800 Da）血清前透析濃度相較 high-flux HD 下降 10%–20%；時間平均濃度降幅更大。更大分子（15–45 kDa，含 complement factor D、leptin 16 kDa、FGF23 30 kDa、$\kappa/\lambda$ light chains、AGEs）清除亦顯著提升；但 protein-bound 尿毒素（indoxyl sulfate、$p$-cresyl sulfate）清除無顯著改善（$p$-cresyl sulfate 僅降 5%–10%）。
+- 五個 mortality RCT：CONTRAST、Turkish、FRENCHIE 未見顯著益處；ESHOL（Maduell 2013, N=906）all-cause mortality HR 0.70 (95% CI 0.53–0.92)；CONVINCE（Blankestijn 2023, N=1360, high-dose 族群）all-cause mortality HR 0.77 (95% CI 0.65–0.93)；Peters 2016 四試驗 IPD 合併顯示 $\geq 24$ L 替代液亞群益處最強；Vernooij 2024 五試驗 IPD meta-analysis 結論一致。**GRADE**（筆記評估，non-author）：ITT effect estimate = moderate（試驗 open-label、劑量異質、prescribed 與 delivered volume 不一致）。<!-- audit 2026-04-19: +GRADE -->
+- **台灣 applicability**<!-- audit 2026-04-19: +Taiwan -->：NHI 於 2024 擴大 online HDF 給付（先前限特定 β-2-M 高值或併發症適應症，2024 後朝 routine eligible 放寬；確切條文請回查健保署 HDF 給付公告最新版）。本土實務 gap：歐洲 CONVINCE 目標 $\geq 23$ L/session，台灣多數院所受 blood flow、AVF 口徑、treatment time 3.5–4 h 限制，**實際 delivered convection volume 常低於 CONVINCE 達標門檻**，外推試驗結果時須自行核對本院劑量分佈。
+- **causal caveat**<!-- audit 2026-04-19: +causal -->：HDF mortality 益處為 **prescribed volume × delivered volume × baseline 病人條件** 三者交互；Peters 2016 的 $\geq 24$ L 亞群分析屬 **post-hoc per-protocol**（潛在 selection bias：能達高劑量者本身血管通路、血行動力學條件較佳 → confounding by indication）；CONVINCE 改以「預期可達高劑量」作 inclusion criteria，屬 pragmatic 折衷但仍非純 ITT convection dose effect。解讀時應區分 **ITT（政策選擇 HDF vs HD）** vs **per-protocol（真正達到高劑量的 causal dose–response）**。
+- 肝素（含 LMWH）不可從動脈端 bolus 注入：首次通過 high-efficiency HDF 迴路可清除 UFH 高達 50%、LMWH 高達 80%；應改由靜脈針/靜脈線 bolus；若必須從動脈端，則延遲 3–5 分鐘後再起動體外循環。
+- 超純水（ultrapure water）+ 雙層 ultrafilter 為技術前提；以 RO + 多重 microfiltration 製備，並需定期微生物監測與 ultrafilter 更換。
+- 近年使用低 albumin sieving coefficient（$< 0.001$）的 HDF 膜，albumin 流失已非問題；protein-leaking 膜用於 HDF 仍屬禁忌（off-label）。
+
+---
+
+# 第 16 章：血液透析過濾（Hemodiafiltration, HDF）
+
+## 前言｜Introduction
+
+- 傳統以擴散為主的透析（低通量、高通量 HD）對中、大分子尿毒素清除能力有限。
+- HDF 結合擴散與強制對流（enforced convection），以 dose-related 方式同時提升小、中、大分子尿毒素清除。
+- Online 替代液模式允許依病人需求與目標導向（goal-oriented）調整對流劑量。
+- Online HDF 已是成熟治療：全球約 40 萬名 ESKD 病人使用，以歐洲與亞洲為主。
+- 經實證與生物學機制支持：最重要的臨床益處為病人預後（outcomes）改善。
+
+# I. 擴散 vs 對流清除率｜Diffusion Versus Convection-Based Clearances
+
+- **低通量 HD** = 以擴散為主
+  - 不帶電分子擴散速率 ∝ $1/\sqrt{\text{MW}}$
+  - 分子越大 → 擴散速度相對越慢 → 透析清除率越低
+- **對流（convection）** = 溶質隨溶劑拖曳（solvent drag）跨膜
+  - 與分子量無關，取決於膜的通透性
+  - **Sieving coefficient（篩選係數）**：0（完全不通透）~1.0（完全通透）
+    - 依溶質的 MW、電荷及膜特性而異
+  - 臨床意義：對流對擴散難以清除的中/大分子，清除率顯著提升
+- **高通量 HD** = 擴散 + 有限對流
+  - 對流源自 internal filtration（超過濾/反超過濾）現象
+    - 機轉：透析機超過濾控制器造成 transmembrane pressure（TMP）平衡變化
+    - 受纖維直徑、膜通透性、dialyzer 幾何結構影響
+  - 傳統高通量 dialyzer 的 internal filtration 可達 **4–6 L/session**，貢獻部分對流清除（Ronco, 2000）
+
+# II. 內部 HDF vs 外部 HDF｜Internal HDF versus External HDF
+
+## A. Internal HDF｜Internal HDF
+
+- 即近年發展的 **expanded hemodialysis（HDX）**
+- 使用 super high-flux 膜
+- 透過降低中空纖維內徑（reduced inner capillary lumen）增加血流阻力，使 internal filtration 達到最大化
+- Internal filtration 可達 **4 L/h**，大幅提升中/大分子清除（Lorenzin 2018；Ronco 2018）
+
+## B. External HDF｜External HDF
+
+- Online HDF 模式：替代液（substitution fluid）由外部注入血液迴路
+  - 注入位置：postdilution（後）、predilution（前）、或 mixed（前 + 後並行）
+  - 以可調式 infusion pump + 專屬埠連接（Tattersall, 2013）
+- **本章定義範圍：僅討論 external online HDF（即對流導向治療）**
+
+# III. 外部 online HDF｜(External) Online HDF
+
+- Online HDF = 「hybrid」治療
+  - 在同一 dialyzer 模組中結合兩大溶質傳輸機制（擴散 + 對流）
+  - 由新鮮透析液產生替代液，外部注入
+  - 目標替代液流速由可調式幫浦 + 流量計 + 控制螢幕設定
+  - 液體平衡（替代 / 超過濾）以流量計 + 超過濾控制器管理
+  - 流體路徑詳見 Figure 16.1
+
+<div class="no-publish">
+
+![Figure 16.1](Ch16/images/13c7ddd6ad93a07e79de277d7166026e9aa8c0c2818e75e83838446941f5b660.jpg)
+
+</div>
+
+> [!tip]- Figure 16.1 解析｜Principle of production of substitution fluid in external online hemodiafiltration
+> * 流程：自來水 → 預處理（softener、activated carbon、microfiltration） → 反滲透（Reverse Osmosis, RO） → 透析液配製（Dialysis Fluid Preparation） → 經 sterilizing ultrafilter 成為 ultrapure dialysis fluid → 部分分流經第二道 ultrafilter（substitution pump 控制）→ 成為 substitution fluid → 注入血液迴路（圖中顯示 postdilution 位置）
+> * 血液迴路（紅色）：病人 → blood pump → hemodiafilter → 回血；dialyzer 出側 → used dialysate 排出
+> * 關鍵設計：**雙層 ultrafilter**（第一道在透析機內部，第二道在 substitution 路徑）確保替代液近乎無菌、無熱原
+> * 教學重點：強調 online HDF 的「在線（online）」替代液並非袋裝預備液，而是即時由透析液分流經雙層 ultrafilter 產生，屬成本效益高的做法；技術前提是水處理系統必須符合 ultrapure water 標準
+
+## A. 清除率｜Clearance
+
+- Online HDF 的傳遞清除率 = 擴散 + 對流的組合
+- 詳細方程見 Appendix E
+- **In vivo 溶質清除率測量**
+  - 可用傳統動脈/靜脈血液採樣法
+  - 條件：靜脈（血液出口）採樣點必須位於血液與替代液完全混合之處
+- **對流清除率的決定因素**
+  - 總超過濾量（total ultrafiltered volume）
+  - 膜的有效溶質 sieving coefficient（通透性、表面積）
+  - 操作條件（blood flow、TMP 控制）
+- **總超過濾量（對流劑量）定義**
+  - = 替代液（substitution fluid）輸注量 + 為矯正細胞外液過度負荷而移除的液體（ultrafiltration）
+
+## B. 替代模式：後稀釋、前稀釋、混合稀釋｜Substitution mode: Postdilution, predilution, or mixed dilution
+
+### 1. 後稀釋模式（Postdilution）
+
+- 替代液在血液流出 hemodiafilter 後才加入（Figure 16.2A）
+- **優點**：溶質清除最有效率
+  - 因 dialyzer 內發生對流處，血液溶質未被稀釋
+- **主要問題**：替代液輸注速率必須與血漿水從血液中的移除量相匹配
+  - 範例計算（教學用）：
+    - 目標輸注率 = 100 mL/min
+    - $Q_B$ = 350 mL/min
+    - → 血漿流速 ≈ 200 mL/min
+    - 若在 dialyzer 中移除 100 mL/min → 造成顯著血液濃縮 + 蛋白質濃縮 → 凝血、濾器阻塞風險升高
+
+### 2. 前稀釋模式（Predilution）
+
+- 所有替代液注入 dialyzer **上游**的血液管路（Figure 16.2B）
+- **優點**
+  - 避免 dialyzer 內血液濃縮問題
+  - Hematocrit 與蛋白質濃度在 dialyzer 內降低（稀釋效應）
+  - 因 dialyzer 的血液與血漿流速提高，dialyzer clearance（流速依賴）亦上升
+- **缺點**
+  - 前稀釋替代液為 toxin-free → 稀釋 dialyzer 入口尿毒素濃度 → 降低 dialyzer 移除量
+- **淨效應**
+  - 清除率提升 vs 稀釋效應兩者部分抵銷
+  - 小分子（urea、creatinine、phosphate）：校正稀釋後的淨清除率 ≈ 不做 HDF 時
+  - β-2-microglobulin：淨清除率上升，但 < 後稀釋 HDF
+
+### 3. 混合稀釋模式（Mixed-dilution）
+
+- 同時在 dialyzer 上游與下游注入替代液（Figure 16.2C）
+- dialyzer 內仍有部分血液濃縮（因超過濾率需補償上、下游注入量）
+- **折衷效果**
+  - 血液濃縮問題減輕
+  - 淨清除率提升 < 純後稀釋 HDF，但仍「相當可觀」（substantial）
+- **參數建議**
+  - 總替代液量應增加約 **×2**
+  - 前/後稀釋流速比約 **1.33 : 1.0**
+
+<div class="no-publish">
+
+![Figure 16.2A](Ch16/images/b905a36c4d7033b4ac16b0feb9c3940f133fcc4ae2e19b87bdd492d7e5e0d706.jpg)
+![Figure 16.2B](Ch16/images/ad9ac456615d7e59627c2a1749f9eb60ce85ab3741518cb7d788f883cb7ed40d.jpg)
+![Figure 16.2C](Ch16/images/0f794f47d5359ff22a4ede0c6768fc56474e82031cd79d80b937f39fd120aedc.jpg)
+
+</div>
+
+> [!tip]- Figure 16.2 解析｜Schematic representation of HDF substitution modes (A Postdilution, B Predilution, C Mixed)
+> * **A Postdilution HDF**：血液經 blood pump 進入 hemodiafilter → 出口端由 substitution pump 加入替代液後回病人；透析液端 $Q_{D,\text{in}} - \text{SUB}$（扣除用於製替代液的分流），出液為 $Q_{D,\text{out}} + \text{UF}$（即 $Q_{D,\text{total}}$）
+> * **B Predilution HDF**：替代液改注入 hemodiafilter **入口前**的血液管路；dialyzer 血液被稀釋 → hematocrit 與蛋白下降、流速上升
+> * **C Mixed dilution HDF**：同時有前稀釋（圖示 20%）與後稀釋（80%）兩條 substitution pump 路徑；此比例對應前/後 ≈ 1.33 : 1.0 的建議
+> * 三圖共通：紅色 = 血液迴路；藍色 = 透析液/替代液；$Q_B$ = blood flow；SUB = substitution flow；UF = 超過濾（淨脫水量）
+> * 讀圖教學：辨識「替代液泵相對 hemodiafilter 的位置」= 辨識 HDF 模式；mixed 模式需要兩支 substitution pump 與特殊管路組
+> * 常見誤解：以為 predilution 的清除率比 postdilution 更高（錯）；正確：predilution 只是在同等血流下允許更高 total UF volume 而不致血液濃縮，但**小分子淨清除幾乎無增益**
+
+### 各模式優劣總表
+
+Table 16.1：Advantages and Drawbacks of Various HDF Modalities According to Substitution Mode
+
+| 面向 | Postdilution | Predilution | Mixed Dilution |
+|---|---|---|---|
+| **PROs（優點）** | 溶質清除高、可有效移除小/中/大分子；替代液消耗量少 | 血液稀釋（hemodilution）；serum protein 濃度與 hematocrit 下降；黏度與滲透壓下降；減少纖維與膜 fouling；可在次優血流條件下執行 HDF | 同時避免前、後稀釋的缺點；容許在次優血流與不利血液流變條件下執行 HDF；保存膜的水力與溶質通透性（降低膜壓力） |
+| **CONs（缺點）** | 血液濃縮；serum protein 濃度與 hematocrit 上升；黏度與滲透壓上升；膜 fouling 潛在；膜水力與溶質通透性下降；TMP 上升；sieving coefficient 下降；纖維凝血；警報潛在；膜壓力上升；albumin leakage 潛在 | 溶質清除與移除率下降（小分子 > 中、大分子）；替代液用量需 ×2 | 需特殊硬體（兩支 infusion pump、專屬血液管路組、特殊軟體與演算法）；須考量 hematocrit 與 serum protein 變化並調整 pre/post 比例以維持 TMP 目標；替代液用量增加但低於 predilution（約 ×1.5） |
+
+> [!tip]- Table 16.1 讀表教學
+> * 欄 = 三種 HDF 模式（post / pre / mixed）；列 = PROs vs CONs
+> * 快速判斷邏輯：
+>   - 若 **$Q_B \geq 350$ mL/min 穩定可得** → 選 postdilution（效率優先）
+>   - 若 **$Q_B$ 勉強、血液流變學不佳（高 Hct、高黏度）** → 選 predilution（以血液稀釋換取可行性）
+>   - 若要 **兼顧對流效率與血液條件** → 選 mixed（代價為兩支幫浦、特殊設定）
+> * 臨床常見陷阱：誤以為 predilution 「比較溫和」就是首選；實則會犧牲小分子清除，僅在血管通路或血液流變條件不理想時才具優勢
+> * 考試重點：mixed 需總替代液量 ×2、pre:post ≈ 1.33:1.0、後稀釋比例建議 80%
+
+## C. 技術前提｜Technical prerequisites
+
+### 1. 水處理系統（Water treatment system）
+
+- 對流治療用水須符合極嚴格純度標準（Ward, 2022）→ 「ultrapure water」概念：近乎無菌、無熱原
+- 製備流程：
+  - 預處理（microfiltration、softener、activated carbon、下游 microfiltration）
+  - 串聯一或兩組反滲透（RO）
+  - 超純水以 distribution loop 連續循環至各透析機
+- 透析液微生物品質進一步由機內的 sterilizing ultrafilter 精製
+- 超純透析液經 infusion pump 分流 → 再經第二道 ultrafilter → 成為雙層過濾的替代液
+- 替代液可注入：
+  - 下游（post）、上游（pre）、或上下游同時（mixed）
+- 線上替代液生產已證實安全、可靠、經濟可行，獲歐盟與日本監管機關核准
+
+### 2. 品質保證（Quality assurance）
+
+- 需定期維持所有 HDF 機的超純水品質（Canaud 2000a、2000b）
+- 包含：
+  - 化學組成監測、污染物監測
+  - 微生物監測
+- Sterilizing ultrafilter
+  - 納入透析液流徑、機內 in situ 消毒
+  - 依場次數或使用時間定期更換，避免內毒素吸附與微生物截留能力衰退
+
+# IV. HDF 處方與監測｜Prescription and Monitoring of HDF
+
+- CKD 傳統 HDF 排程：每週 3 場、每場 4 小時（12 h/wk）
+- 本章不涵蓋 incremental（1–2×/wk）或強化治療（夜間透析、4–6×/wk）；但 HDF 同樣可套用於替代排程
+
+## A. 血管通路與體外血流｜Vascular access and extracorporeal blood flow
+
+- Postdilution HDF 要求體外 blood flow 可穩定達 **350–400 mL/min**
+- 首選：arteriovenous fistula（AVF）或 arteriovenous graft（AVG）
+  - 尤其 high-volume HDF
+- 大口徑 tunneled central venous catheter 亦可
+- 雙針或雙導管配置為佳；針口徑建議 **15G 或 14G**
+
+## B. 高通量 hemodiafilter｜High-flux hemodiafilter
+
+- 膜須具備：
+  - 高水力通透性：$K_{Uf} > 50$ mL/h/mmHg
+  - 高溶質通透性：β-2-microglobulin sieving coefficient $> 0.6$
+  - 最適交換表面積：$1.6$–$2.5$ m²
+
+## C. 總超過濾量目標｜Target total ultrafiltered volume
+
+- 根據 HDF vs HD 隨機試驗結果（見下方 Clinical Outcomes 段）
+- **Postdilution 4 小時療程目標：$\geq 24$ L/session（= 100 mL/min）**
+- 等效對流劑量換算：
+  - Predilution：×2（200 mL/min）
+  - Mixed-dilution：×1.5（150 mL/min，其中 80% 為 postdilution 注入）
+- 操作
+  - pre / post 替代液流率可手動設定
+  - 部分機型會依 dialyzer TMP 自動分配 total substitution 量於前後濾器 infusion 位置
+  - 目標：避免過度血液濃縮 + 最大化 postdilution 比例
+
+## D. 抗凝｜Anticoagulation
+
+- 相較標準 HD，HDF 因 rapid UF、血液濃縮、抗凝劑潛在流失，**血液凝血活性可能更高**
+- 由動脈端注入 LMWH（及較少量的 UFH），經高效 HDF 設置首次通過時，可造成顯著抗凝劑清除
+- **關鍵教學要點**：
+  - 肝素 bolus 絕不可直接打入 hemodiafilter 入口血液線
+  - 首次通過 high-efficiency HDF setup 可清除：UFH 高達 **50%**、LMWH 高達 **80%**（Hebibi, 2020）
+- **正確作法**
+  - 初始肝素 bolus 應由靜脈針或靜脈管線注入
+  - 若不得已從動脈埠注入 → 延遲 **3–5 分鐘**後再啟動體外血流（Dhondt, 2015）
+- 劑量因人而異：需階段性、依滴定方式提升
+- 超過濾不足或迴路凝血 → 通常增加肝素劑量即可
+- 調整原則：依出血風險、迴路通暢度、肝素種類
+
+## E. 治療時間｜Treatment time
+
+- HDF 目的 **不是縮短治療時間**，而是在相同時間內提升效率與耐受度
+- 傳統 HDF：每週 3 場、每場約 240 分鐘（720 min/wk）
+- 延長時間或增加場次（如 4×/wk）可能更有利：
+  - 進一步降低尿毒素血清濃度
+  - 改善血流動力學穩定性（Cornelis, 2014, 2015）
+
+## F. 電解質組成｜Electrolyte composition
+
+- 透析液與替代液中 Na、K、Ca、Mg 濃度選擇 = 與一般 HD 相同；詳見本手冊其他章節
+
+## G. 病人監測｜Patient monitoring
+
+- HDF 病人的臨床監測 = 與非 HDF 的 HD 病人相同
+
+# V. HDF 的溶質移除｜Solute Removal With HDF
+
+## A. 小分子｜Small molecules
+
+- Urea（或其替代 ionic clearance）清除率與質量移除增加 **10%–15%**
+- 在相近前透析血清值條件下，phosphate 移除增加 → 應能降低前透析血清磷（Daugirdas, 2022）
+
+## B. 中分子｜Middle molecules
+
+- β-2-microglobulin（MW = 11,800 Da）
+  - 清除率增加（Roumelioti, 2018）
+  - 前透析血清濃度較 high-flux HD 下降 **10%–20%**
+  - 時間平均（time-averaged）血清值降幅更大（Pedrini 2011；Ward & Daugirdas 2024）
+- 觀察性研究：高前透析 β-2-microglobulin 與死亡率（含心血管死亡、感染相關死亡）相關（Cheung 2006；Kanda 2020）
+
+## C. 極大分子｜Very large molecules
+
+- HDF 對多種 putative 尿毒素的移除率高於傳統 HD
+- MW 多大於 β-2-microglobulin，範圍 **15–45 kDa**：
+  - Complement factor D（pro-inflammatory 中介物）
+  - Leptin（16 kDa，有效移除可能改善營養狀態）
+  - FGF23（30 kDa，代謝性骨病與血管鈣化之中介）
+  - 多種 cytokines
+  - 紅血球生成抑制物，如 3-carboxy-4-methyl-5-propyl-2-furanpropanoic acid（CMPF）
+  - Immunoglobulin light chains（$\kappa$, $\lambda$）
+  - 循環中的 advanced glycation end products（AGEs）與其前驅物
+
+## D. 蛋白結合型尿毒素｜Protein-bound uremic toxins
+
+- 關注分子：indoxyl sulfate、$p$-cresyl sulfate 等
+- HDF **不能顯著降低**此類分子的血清濃度
+- 部分研究顯示 $p$-cresyl sulfate 僅下降 **5%–10%**（Takkavatakarn, 2021）
+
+# VI. 臨床效應｜Clinical Effects
+
+## A. 透析中症狀｜Intradialytic symptoms
+
+- RCT 顯示 HDF 相較傳統 HD，intradialytic hypotension（IDH）事件與 morbid events 大幅減少（Locatelli 2010；Morena 2017）
+- 推測機轉：
+  - 負向熱平衡（relatively cool 替代液的注入）
+  - 移除血管擴張介質
+  - 改善內皮血管功能與交感神經活性
+- **對照研究中（控制熱平衡或容積）**：HDF 與 HD 在血流動力學穩定性上無差異（Buchanan, 2017）
+  - [筆記補充：暗示臨床所見 IDH 減少，部分來自「冷替代液」造成的熱損失，而非 HDF 本身獨有效應]
+
+## B. 病人自述生活品質｜Patient-reported quality of life
+
+- RCT 結果不一致：
+  - 部分研究報告 HR-QOL 的 physical / social domain 改善（Aichi, 2022）
+  - 部分研究無變化（Mazairac, 2013）
+- 一項 meta-analysis：社會功能改善 + 疲倦減少（Suwabe, 2018）
+- **CONVINCE**：HDF 組在 physical function、cognitive function、pain interference、social participation 上 HR-QOL 下降顯著較慢（Rose, 2024）
+
+## C. 殘餘腎功能｜Residual renal function
+
+- 部分研究提示 HDF 可能較傳統 HD 更能保留殘餘腎功能
+- 然而此議題研究不足
+
+## D. 貧血矯正與 ESA 使用｜Anemia correction and ESA usage
+
+- 前瞻性研究與大型 incident cohort 顯示 HDF 可顯著降低 erythropoietin resistance index（Panichi 2011, 2015）
+- 推測機轉：
+  - 紅血球生成抑制物質（如 CMPF）移除增加（Niwa, 2013）
+  - 發炎下降
+  - 鐵利用改善（Lin 2002；Sun 2023）
+
+## E. 營養狀態與身體組成｜Nutritional status and body composition
+
+- 多項研究報告食慾改善 + 飲食蛋白攝取增加
+- 幼兒與成人的 controlled study：HDF 更能保存肌肉與脂肪量 → 人體測量與營養參數較佳（Molina 2018；Paglialonga 2023）
+- Visceral protein 指標（albumin、prealbumin）在 RCT 中 HDF 組長期穩定
+- **流失面**
+  - HDF 使 essential nutrients 流失略增（amino acids、水溶性維生素、微量元素）
+  - 部分病人需口服補充（Bévier 2022；Murtas 2019）
+
+## F. β-2-microglobulin 類澱粉沉積症｜β-2-microglobulin amyloidosis
+
+- 30 年以上的大型 cohort：高通量膜與對流治療減少 carpal tunnel syndrome 與 β-2-microglobulin amyloidosis 其他表徵發生
+- 益處推測來自：
+  - 規律使用 ultrapure water + 生物相容材料 → 減少發炎
+  - β-2-microglobulin 移除增加（Schiffl, 2002）
+- 近年無 HDF vs HD 針對此併發症的直接比較報告
+
+## G. 骨礦物質病變｜Bone mineral disease
+
+- HDF 傾向促進磷控制、降低 PTH 與 FGF23 濃度
+  - 機轉：較高清除率 + 可能的正向 calcium 質量平衡
+- 結果：改善骨代謝週轉 + 減少血管鈣化（Bouma-de Krijger 2020；Movilli 2011）
+
+# VII. 臨床預後｜Clinical Outcomes
+
+## A. 成人病率與死亡率益處｜Morbidity and mortality benefits in adults
+
+- 已完成五項主要 HDF vs HD mortality RCT
+- **五試驗主要數據總表**<!-- audit 2026-04-19: +GRADE +HR +CI -->
+
+  | Trial | N | 主要結果（all-cause mortality） | 替代液劑量 | 筆者 GRADE |
+  |---|---|---|---|---|
+  | CONTRAST (Grooteman, 2012) | 714 | HR 0.95 (95% CI 0.75–1.20), n.s. | 中位 20.7 L/session | Moderate（power 不足、劑量未達歐洲高劑量門檻） |
+  | Turkish (Ok, 2013) | 782 | HR 0.79 (95% CI 0.55–1.14), n.s. | 中位 17.2 L/session | Moderate |
+  | ESHOL (Maduell, 2013) | 906 | **HR 0.70 (95% CI 0.53–0.92)** | 中位 23.9 L/session | Moderate（open-label、早期停止可能高估效果） |
+  | FRENCHIE (Morena, 2017) | 381 | 無顯著 survival / hospitalization 益處 | 高劑量但樣本小 | Low（老年 subgroup、事件數少） |
+  | CONVINCE (Blankestijn, 2023) | 1360 | **HR 0.77 (95% CI 0.65–0.93)** for all-cause mortality | prescribed $\geq 23$ L/session | Moderate（open-label；選擇性 enrollment 限制 generalizability） |
+
+- 對前三陰性試驗的解釋：4 小時治療中替代液量相對不足；亦可能 power 與劑量異質綜合導致陰性
+- **Peters 2016（IPD 合併分析，四試驗）**
+  - 顯示總體 mortality 降低
+  - 存活益處在接受 $\geq 24$ L 替代液的病人最強
+  - **causal caveat**<!-- audit 2026-04-19: +causal -->：此為 **post-hoc per-protocol subgroup**，並非隨機化（能達 $\geq 24$ L 者通常血管通路、血液流變學條件較佳 → confounding by indication；不可視為純 dose–response causal evidence）
+- **CONVINCE trial（Blankestijn, 2023；第五項 RCT）**
+  - **enrollment 限制**：納入「預期可達成 high-volume 替代液劑量」的病人 → pragmatic 解法但亦限縮外推
+  - 結果：all-cause mortality HR 0.77 (95% CI 0.65–0.93)；絕對風險降低與前四試驗 IPD 合併相近
+  - **prescribed vs delivered 落差**<!-- audit 2026-04-19: +causal -->：prescribed $\geq 23$ L/session，實際 delivered 亦多數達標；但 ITT 效應仍綜合「劑量達標 + 達標族群本身條件較佳」二項，不等於純對流劑量 causal effect
+  - [筆記補充：原文第 208 行有筆誤，寫作 "clear survival benefit of hemodialysis versus high-flux hemodialysis" — 依上下文與 CONVINCE 設計，應為 HDF vs high-flux HD]
+- **Vernooij 2024**：納入 CONVINCE 的五試驗 IPD meta-analysis 結論一致（整體 HDF 相對 HD all-cause mortality 約降低 17%–20%，劑量 $\geq 23$ L 亞群最強）
+- **筆者整體 GRADE（all-cause mortality, HDF ≥ 23 L vs high-flux HD）**：Moderate
+  - Risk of bias：open-label；部分試驗早期停止（ESHOL）
+  - Inconsistency：陰性試驗可用劑量不足解釋，試驗間 heterogeneity 可接受
+  - Indirectness：CONVINCE enrollment 限制影響外推（特別是無法達高劑量者）
+  - Imprecision：CI 未跨 1.0，事件數足
+  - Publication bias：低
+- **台灣 applicability**<!-- audit 2026-04-19: +Taiwan -->
+  - 2024 起 NHI 擴大 online HDF 給付範圍（請逐年核對健保署最新公告，給付條件與申報規範可能每年調整）
+  - 本土 delivered convection volume 常低於 CONVINCE $\geq 23$ L/session 門檻，主因：AVF/AVG 口徑、blood flow 穩定性、treatment time 多 3.5–4 h；引用 CONVINCE/ESHOL 效應時，應同時檢視**本院 delivered 量分佈**再外推
+  - 臨床應用建議：若院所 delivered convection volume 可穩定 $\geq 23$ L/session → 期待益處接近試驗；若低於此門檻 → 效應估計不宜直接套用
+
+## B. 幼兒臨床預後｜Clinical outcomes in infants
+
+- 兒童接受較頻繁排程（短日或隔日）HDF 可見：
+  - 發炎標記下降
+  - Carotid intima-media thickness 進展減緩
+  - 恢復 catch-up growth（Shroff, 2019）
+
+## C. 蛋白與 albumin 流失｜Protein and albumin loss
+
+- 現行常用 HDF 膜 albumin sieving coefficient 已 $< 0.001$ → HDF 的 albumin 流失已非顯著問題
+- 例外情境：使用 high-molecular-weight cutoff 膜（即使一般 HD 也會 leak albumin）若用於 HDF → 透析中 albumin 流失可能過高
+- 有限度 albumin 流失可能增加 albumin-bound 尿毒素移除 → 日本研究提示 protein-leaking 膜可能有臨床益處（Abe, 2021）
+- **結論**
+  - 需進一步研究
+  - **Protein-leaking 膜用於 HDF 仍屬禁忌 + off-label**
+
+## D. 缺乏症候群風險｜Risk of deficiency syndromes
+
+- 所有使用高通量膜的治療均有此理論風險
+- HDF 可能流失：水溶性維生素、微量元素、amino acids、small peptides、蛋白質
+- 每場流失量仍小；多數可由均衡飲食或口服補充矯正
+
+—— 本章結束 ——
+
+## TEACHING SLIDES
+
+# Hemodiafiltration 擴散與對流清除率｜Daugirdas 6e Ch16
+
+## 01 為什麼需要 HDF
+- 傳統擴散型透析：中大分子清除有限
+- HDF = 擴散 + 強制對流（hybrid）
+- Dose-related 擴展分子量清除範圍
+- 全球逾 40 萬名 ESKD 病人使用，歐亞為主
+- 主要益處：病人預後（outcomes）改善
+
+## 02 擴散 vs 對流機轉
+- 擴散速率 ∝ 1/√MW，中大分子清除差
+- 對流 = solvent drag，與 MW 無關
+- Sieving coefficient：0（不通透）~ 1.0（完全通透）
+- 高通量 HD 的 internal filtration：4–6 L/session
+- HDX（super high-flux 膜 + 減小內徑）internal filtration 可達 4 L/h
+
+## 03 Internal vs External HDF
+- Internal HDF = HDX，純靠 internal filtration
+- External HDF = online HDF，externally 注入替代液
+- 外部替代液模式：post / pre / mixed
+- 本章聚焦 external online HDF
+
+## 04 Online HDF 流程（圖：Figure 16.1）
+- 自來水 → 預處理 → RO → 透析液
+- 第一道 ultrafilter（機內） → ultrapure dialysis fluid
+- 第二道 ultrafilter（substitution 路徑） → 替代液
+- 替代液由 substitution pump 注入血液迴路
+- 雙層 ultrafilter 是安全關鍵
+
+## 05 替代液模式 A：Postdilution（圖：Figure 16.2A）
+- 替代液於 dialyzer 出口後注入
+- 溶質清除效率最高
+- 風險：血液濃縮、蛋白濃縮、凝血
+- 範例：QB 350、替代 100 mL/min → 血漿流 200、移除 100 → 嚴重濃縮
+
+## 06 替代液模式 B：Predilution（圖：Figure 16.2B）
+- 替代液於 dialyzer 入口前注入
+- 避免血液濃縮；Hct、蛋白下降
+- 血液與血漿流速上升 → dialyzer clearance 上升
+- 但替代液 toxin-free → 稀釋入口尿毒素
+- 小分子淨清除 ≈ 不做 HDF；β-2-M 淨清除 < postdilution
+
+## 07 替代液模式 C：Mixed Dilution（圖：Figure 16.2C）
+- 上游 + 下游同時注入
+- 總替代液量 ×2
+- Pre:Post 流速比 ≈ 1.33:1.0（post 約 80%）
+- 折衷：血液濃縮減輕、清除仍可觀
+- 代價：兩支 pump、特殊管路與軟體
+
+## 08 HDF 模式優缺比較（表：Table 16.1）
+- Post：效率高、替代液省；缺點血液濃縮、膜 fouling、albumin leak
+- Pre：血液稀釋、膜保護；缺點小分子清除下降、替代液 ×2
+- Mixed：避免雙缺點；缺點硬體複雜、用量 ×1.5
+- 選模式先看 QB：≥350 → post；QB 勉強 → pre；兩者兼顧 → mixed
+
+## 09 技術前提：Ultrapure Water
+- 預處理 + 一到兩組 RO 串聯
+- 機內 sterilizing ultrafilter + 第二道 ultrafilter
+- Distribution loop 持續循環
+- 化學 + 微生物品質定期監測
+- Ultrafilter 依場次或時間定期更換
+
+## 10 處方目標：Total UF Volume
+- Postdilution 4h：≥ 24 L/session（100 mL/min）
+- Predilution 等效：× 2 = 200 mL/min
+- Mixed（80% post）等效：× 1.5 = 150 mL/min
+- 血管通路：AVF/AVG 優先；導管可接受
+- 針 15G 或 14G；QB 350–400 mL/min
+
+## 11 Hemodiafilter 規格
+- 水力通透 KUf > 50 mL/h/mmHg
+- β-2-M sieving coefficient > 0.6
+- 交換面積 1.6–2.5 m²
+- Albumin sieving coefficient < 0.001（現行膜）
+- Protein-leaking 膜用於 HDF = off-label 禁忌
+
+## 12 抗凝：肝素關鍵教學
+- HDF 比 HD 凝血活性高（rapid UF、濃縮、抗凝劑流失）
+- 首次通過 high-efficiency HDF：UFH 清除 up to 50%、LMWH up to 80%
+- 肝素 bolus → 從靜脈針/靜脈線注入
+- 若從動脈埠 → 延遲 3–5 分鐘再啟動 QB
+- 劑量個別化、階段性滴定
+
+## 13 治療時間與電解質
+- HDF 不縮短治療時間；相同 240 min、效率更高
+- 延長或 4×/wk 可能更有利（進一步降尿毒素、改善血壓）
+- 透析液與替代液電解質 = 與一般 HD 相同
+- 病人監測項目 = 與一般 HD 相同
+
+## 14 溶質移除：小分子與中分子
+- 小分子（urea、Cr、磷）清除 +10%–15%
+- β-2-M（11,800 Da）前透析值降 10%–20%，時間平均降更多
+- β-2-M 越高 → 心血管與感染相關死亡率越高
+- Phosphate 前透析值可降，輔助骨礦管理
+
+## 15 溶質移除：大分子與蛋白結合型
+- 15–45 kDa：complement factor D、leptin 16 kDa、FGF23 30 kDa
+- Immunoglobulin κ/λ、AGEs、CMPF 等
+- 蛋白結合型（indoxyl sulfate、p-cresyl sulfate）：無顯著改善
+- p-cresyl sulfate 僅降 5%–10%
+
+## 16 臨床效應（I）
+- IDH 與 morbid events 減少（Locatelli、Morena）
+- 推測：熱負平衡、移除血管擴張介質、改善內皮
+- 控制熱/容積試驗中 HDF vs HD 無差異（Buchanan）→ 冷替代液為重要因素
+- HR-QOL 結果不一；CONVINCE 顯示 physical/cognitive/pain/social 下降較慢
+
+## 17 臨床效應（II）
+- 殘餘腎功能：可能較好，證據不足
+- EPO 抗性下降（Panichi）
+- 營養：食慾、蛋白攝取、肌肉脂肪量較佳
+- 微量元素 / 水溶性維生素流失略增，必要時補充
+- β-2-M amyloidosis：歷史 cohort 顯示益處；近年無直接比較
+
+## 18 死亡率 RCT 整合
+- CONTRAST、Turkish、FRENCHIE：陰性
+- ESHOL：mortality 降 30%
+- Peters 2016 IPD 合併：總體 mortality 降低，≥24 L 亞組最強
+- CONVINCE 2023：限定高劑量族群，相對風險降約 20%
+- Vernooij 2024 五試驗 IPD meta-analysis：一致
+
+## 19 兒童與 Albumin 流失
+- 兒童：發炎降、cIMT 進展減緩、catch-up growth（Shroff 3H study）
+- 現代膜 albumin sieving < 0.001，流失已非問題
+- High-cutoff 膜 + HDF → albumin 過度流失
+- Protein-leaking 膜：off-label，不建議
+- 營養素流失風險普遍可由飲食/補充彌補
+
+## 20 臨床決策要點 Take Home
+- QB ≥ 350–400、目標 ≥ 24 L/session（post-dilution）
+- 雙層 ultrafilter + ultrapure water 是前提
+- 肝素絕不從動脈埠 bolus；從靜脈端給
+- β-2-M 與 15–45 kDa 中大分子是主要受益目標
+- CONVINCE + Vernooij 2024 鞏固 HDF mortality 益處（high-volume 族群）
