@@ -108,7 +108,7 @@ slides: https://copper0722.github.io/textbook-notes/slides/brenner-ch63-ch-63-pe
 
 ## 延伸閱讀
 
-- Full note (vault, CC-only, non-public): `raw/books/2026_Brenner_12e/ch63/BrennerRector12e_Ch63_*.md`
+- Full note (vault, CC-only, non-public): `ref/books/2026_Brenner_12e/ch63/BrennerRector12e_Ch63_*.md`
 - Canonical wiki (M2M English, CC): `proj/wiki/wiki_brenner12e_ch63_*.md`
 - Slides (public): [https://copper0722.github.io/textbook-notes/slides/brenner-ch63-ch-63-peritoneal-dialysis.html](https://copper0722.github.io/textbook-notes/slides/brenner-ch63-ch-63-peritoneal-dialysis.html)
 
