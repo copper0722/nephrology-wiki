@@ -107,7 +107,7 @@ e. All of the above
 
 ## 延伸閱讀
 
-- Full note (vault, CC-only, non-public): `ref/books/2026_Brenner_12e/ch19/BrennerRector12e_Ch19_*.md`
+- Full note (vault, CC-only, non-public): `raw/books/2026_Brenner_12e/ch19/BrennerRector12e_Ch19_*.md`
 - Canonical wiki (M2M English, CC): `proj/wiki/wiki_brenner12e_ch19_*.md`
 - Slides (public): [https://copper0722.github.io/textbook-notes/slides/brenner-ch19-risk-prediction.html](https://copper0722.github.io/textbook-notes/slides/brenner-ch19-risk-prediction.html)
 

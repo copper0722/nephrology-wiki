@@ -235,7 +235,7 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 | **Gemma 4** | Gemma 4 | vault raw .md (read-only) | independent contributor, alternative perspective, bulk processing | on dispatch |
 
 **Protocol:**
-1. All three read from same source: vault `ref/` raw.md + `wiki/` canonical wiki
+1. All three read from same source: vault `raw/` raw.md + `wiki/` canonical wiki
 2. Each writes to `repos/nephro-cme/cc-wiki/` — same files, merge on conflict
 3. Claude = final arbiter on methodology (Guyatt/Hernán compliance)
 4. Codex = adversarial review: challenges Claude's appraisals, catches errors

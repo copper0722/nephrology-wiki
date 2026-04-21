@@ -45,7 +45,7 @@ slides: https://copper0722.github.io/textbook-notes/slides/brenner-ch55-dietary-
 
 ## 延伸閱讀
 
-- Full note (vault, CC-only, non-public): `ref/books/2026_Brenner_12e/ch55/BrennerRector12e_Ch55_*.md`
+- Full note (vault, CC-only, non-public): `raw/books/2026_Brenner_12e/ch55/BrennerRector12e_Ch55_*.md`
 - Canonical wiki (M2M English, CC): `proj/wiki/wiki_brenner12e_ch55_*.md`
 - Slides (public): [https://copper0722.github.io/textbook-notes/slides/brenner-ch55-dietary-approaches.html](https://copper0722.github.io/textbook-notes/slides/brenner-ch55-dietary-approaches.html)
 
