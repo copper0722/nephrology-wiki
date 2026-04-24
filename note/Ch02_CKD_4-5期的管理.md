@@ -1,6 +1,6 @@
 ---
 _synced_from: proj/note/textbooks/2026_Daugirdas_6e/Ch02_CKD_4-5期的管理.md
-_synced_at: '2026-04-25T00:15:00'
+_synced_at: '2026-04-25T01:15:05'
 type: note
 title: CKD 4-5 期的管理：移植、透析或保守治療的準備｜Management of CKD Stages 4 and 5
 source_type: textbook-chapter
