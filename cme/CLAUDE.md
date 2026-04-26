@@ -14,7 +14,8 @@ Build a public-safe CME layer on top of `wiki/` for TSN board prep:
 | path | role |
 |---|---|
 | `cme/README.md` | public candidate guide in zh-TW |
-| `cme/_template.md` | author template for new modules |
+| `cme/_template-v2.md` | canonical v2 template for one-Q-per-file bank entries |
+| `cme/_template.md` | deprecated legacy redirect to v2 |
 | `cme/nephrology-<topic>-<focus>.md` | reusable CME module, one topic per file |
 | `cme/CLAUDE.md` | protocol card for all authors |
 
@@ -49,13 +50,13 @@ question_count: <integer>
 
 - Short stem, concept/definition/threshold/association.
 - Use when testing recall of staging cutoffs, definitions, equations, key numbers.
-- Still use 5 options (`A-E`), single best answer.
+- Use 4 options (`A-D`), single best answer.
 
 ### Part B: 臨床 50 題
 
 - Short clinical vignette first, then interpretation/next-step/risk stratification question.
 - Use when testing application of wiki facts to CKD staging, prognosis, management logic.
-- Single best answer, 5 options (`A-E`).
+- Single best answer, 4 options (`A-D`).
 - No real patient data; fictionalized age/sex/comorbidity only.
 
 ## Question Block Standard
@@ -65,7 +66,7 @@ Every question must include:
 2. `Difficulty`
 3. `Bloom`
 4. Stem in zh-TW
-5. Five options (`A-E`)
+5. Four options (`A-D`)
 6. `Correct answer`
 7. `Explanation`
 8. `Source` citation back to `../wiki/...`
@@ -136,14 +137,12 @@ Same editorial model as `wiki/`:
 
 ## Progress Tracking
 
-Candidate progress is tracked at module level, not per hidden database.
+Candidate progress is tracked locally in the browser SPA, not in a hidden server database.
 
 - Each module frontmatter must declare `question_count`.
 - `cme/README.md` maintains the public module checklist.
-- Candidates track completion in a personal fork, local markdown copy, or note app:
-  - date completed
-  - score / correct count
-  - weak topics to re-read in `wiki/`
+- `docs/qbank/` stores answered IDs, score, and weak topics in `localStorage`.
+- Candidates may still keep a personal fork, local markdown copy, or note app for long-form notes.
 - Optional module footer: quick self-audit (`done / wrong items / wiki to revisit`).
 
 ## Integration With Wiki

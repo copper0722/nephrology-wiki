@@ -6,13 +6,27 @@ GitHub: `copper0722/nephro-cme` (public)
 
 TSN 腎臟專科甄試考試導向的複習專區。Vault canonical wiki 的**考試特化投影**。
 
+## Strategic Direction (Copper directive 2026-04-26)
+
+**Pivot 1 — Interactive Q&A focused, Q-as-entity (Copper refinement 2026-04-26).** 此 repo 的核心 deliverable 是「互動式考題」(interactive question bank)。原先 4-zone（note / slides / cme / wiki）裡 **`cme/` 升格為 primary product**；note/slides/wiki 為 supporting source layer 而非並列。**Question = primary entity, NOT note**: 每題 = 1 stem + 4 options + 4 option-level wiki blocks（每個選項配一段教科書錨定的解釋——為何這選項對 / 錯）。Wiki content 從 textbook-derived 而非自由聯想。出口讓考生互動作答 + 即時看到選項層級的 textbook explanation + wiki cross-link。
+
+**Pivot 2 — Continuous OA CME ingestion capability.** Agent 必須持續搜集 open access nephrology CME — NephSAP / ASN Kidney Self-Assessment / KDIGO board review / AJKD Core Curriculum / CJASN ASN-IN-Review 等。建立 cron pipeline：source discovery → license check → wikify → MCQ extraction → question bank append。**不再是一次性人工 wikify**。
+
+**Pivot 3 — TSN exam = 4-選項 (A-D), single best answer.** 2026-04-26 verified from raw 學長姐 recall 2020/2021/2023/2024（Kuo LiYuan FB DM 觸發 + raw content 證實）。**所有 cme/ 模組（含 4 既存）+ `cme/_template.md` + `cme/CLAUDE.md` + `cme/README.md` + `nephro-cme/README.md` 必須 5→4 重作**。具體 line edits 見 `_upgrade-plan-codex-2026-04-26.md` §TSN Fix Scope。
+
+**Pivot 4 — NephSAP 為 Q-bank 主軸.** Vault 已有 **10 卷 NephSAP raw** at `medwiki-raw/clinical_medicine/internal_medicine/nephrology/NephSAP_*.md` (Vol23 No3-5 + Vol24 No1-5 + 兩本特刊, 共 4,900 行)。這是 ASN 官方 self-assessment, **大量 case-based MCQ + rationale**, license 容許學術轉譯（去識別 + paraphrase）。**第一波應在此完成 ≥100 題互動化**, 不要重新 wikify-from-scratch。
+
+**Pivot 5 — Latest-edition-wins, topic-based Q ref (Copper directive 2026-04-26).** 醫學知識半衰期短，專科考試以最新版本為主。**Current latest = Brenner 12e (2026)**, 已 3 章 full note (Ch19/55/63) at `~/repos/note/textbook/brenner-12e/`。13e 將來出版時自動接管 default — pipeline 設計就以多版本切換為前提。Source layer (`medwiki-raw/` + `medwiki/`) edition-pinned 並存（11e/12e/13e 共存不刪舊）；Q-bank 用 **topic slug** 而非 chapter number 對應 textbook，由 `brenner_topic_index` PG table resolver 自動指向最新版。同 policy 適用 Nissenson 6e→7e、Daugirdas 6e→7e、Emma 8e→9e、KDIGO 2024→2026、NephSAP Vol N→N+1。詳見 `_textbook-ingest-pipeline.md` §Versioning policy + `cme/_template-v2.md`。
+
+**Source for raw 學長姐 recall (private)**: `note/tsn-exam-recall/tsn-recall-{2020-lin,2020-pdf,2021-anon,2021-wang,2023,2024}.md`. 2022 缺漏 (Kuo DM 標註).
+
 ## Repo 4-Zone Structure (2026-04-19 updated)
 
 | Zone | 路徑 | 語言 | 目標讀者 | 內容 |
 |---|---|---|---|---|
 | **1. note** | `/note/` | zh-TW | 人類考生 + Copper | 指定教科書**每章節筆記** + 指定期刊**每篇 review article 筆記**。**Source of truth**。|
 | **2. slides** | `/slides/{book}/` | zh-TW | 考生 + Copper | Marp 投影片，從 note `## TEACHING SLIDES` section 抽取。2026-04-19 從 textbook-notes 遷入（含全部腎臟教科書）。|
-| **3. cme** | `/cme/` | zh-TW | 考生 | TSN 5-選項格式題庫、每章末題目、自製題。|
+| **3. cme** | `/cme/` | zh-TW | 考生 | TSN 4-option (A-D) interactive Q-bank、answer reveal、per-option why、local score tracking。|
 | **4. nephrology-cme-wiki** | `/nephrology-cme-wiki/` | M2M English | CC agents | **嚴格規則**（2026-04-19）：**所有內容必須由 `/note/` 衍生，不手改**。由 `nephrology-cme-wiki-gen.py` 覆蓋式產出，hand-edit 下次被蓋掉。Deferred 至 note ≥30 再啟動。舊 `/cc-wiki/` 2026-04-19 rename。|
 
 Cross-refs: `textbook-notes` repo 於 2026-04-19 rescope 成「非腎臟 textbook slides」。
@@ -33,8 +47,8 @@ Cross-refs: `textbook-notes` repo 於 2026-04-19 rescope 成「非腎臟 textboo
    - OA 自動抓+ wikify；非 OA → Zotero metadata-only + Copper 手動下載 PDF
 
 3. **考古題 recall / 考試邏輯** → `/cme/`
-   - 每題一檔 TSN 5-選項格式 + rationale
-   - 來源：考古題 recall、章末題、自製
+   - 每題 **TSN 4-選項 (A-D) 格式** + rationale (5-選項 deprecated 2026-04-26)
+   - 來源：考古題 recall (private at `note/tsn-exam-recall/`)、NephSAP、AJKD Core Curriculum、章末題、自製
 
 4. **Wiki synthesis** → `/nephrology-cme-wiki/` (strict rule, 2026-04-19)
    - 由 `/note/` 中 `publish: true + publish_to: nephro-cme` 的 notes，按 `wiki_topic:` aggregate，script overwrite-style 產出
@@ -286,7 +300,7 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 **Copper-provided 真題 protocol:**
 1. Copper 提供題目（任何格式：照片、文字、口述）
 2. Agent 存入 `cme/bank/raw/` (§1.8 save raw first)
-3. 整理成標準 CME format（_template.md）
+3. 整理成標準 CME format（`cme/_template-v2.md`；legacy `cme/_template.md` is deprecated）
 4. Cross-link to wiki topic
 5. Opus editorial review
 6. Publish to `cme/` (public) — **去除任何可辨識考題來源的資訊**（改寫 vignette，不直接用原題）
@@ -317,9 +331,21 @@ Three independent LLM authors contribute to this wiki. Each reads vault raw lite
 ```
 
 ## TODO
+
+### 2026-04-26 directive (4-pivot)
+
+- [ ] **Keyed module 5→4 manual conversion**: existing 17 keyed module questions require Copper/Opus review before dropping E distractors; keep source questions untouched until reviewed — bug:manual (2026-04-26), codex-week1
+- [ ] **NephSAP MCQ extraction pipeline**: `medwiki-raw/.../NephSAP_*.md` × 10 → MCQ extractor (案例-題幹-答案-rationale 結構抽取) → `cme/bank/nephsap/` → 互動格式. Target ≥100 題 first pass. — dispatch:opus:manual (2026-04-26)
+- [ ] **Interactive Q-bank engine**: design web/CLI interactive answer flow (not just static .md). Options: GH Pages SPA reading `cme/*.md` frontmatter + answer key, OR jupyter-style notebooks, OR static site with hidden answer reveal. Codex to propose. — plan:auto (2026-04-26)
+- [ ] **Continuous OA CME ingestion cron**: source-list (NephSAP RSS, AJKD Core Curriculum, KDIGO, CJASN ASN-IN-Review) + license-check + wikify pipeline. Run weekly. — plan:auto (2026-04-26)
+- [ ] **學長姐 recall 2020-2024 → CME modules** (4-選項 format): 2021 anon 15Q + 2021 wang 18Q + 2023 ~20Q + 2024 多題, vignette rewrite per protocol §6 (去除 identifiable info). — dispatch:opus:manual (2026-04-26)
+- [ ] **2022 recall gap**: 學長姐供應 2020/2021/2023/2024, 2022 缺. 透過 Kuo LiYuan 或其他學長姐補齊. — manual (2026-04-26)
+- [ ] **Image extraction for 2023 (17 images) + 2024 (8 images)**: `unzip -j` to sidecar; image-dependent MCQ rebuild. — plan:auto (2026-04-26)
+
+### Carryover (2026-04-08)
+
 - [ ] 考古題 gap analysis: 115年考題 vs 現有 wiki coverage — dd:auto (2026-04-08)
-- [ ] Brenner 11e 章節 mapping → wiki topics — plan:auto (2026-04-08)
-- [ ] Nissenson 6e wikify (116年考試) — dd:auto (2026-04-08)
+- [ ] Brenner 12e 章節 mapping → wiki topics (TSN 推薦 11e but 讀 12e per Law) — plan:auto (2026-04-08)
+- [ ] Nissenson 6e wikify (116年考試指定) — dd:auto (2026-04-08)
 - [ ] Export script: vault wiki → repo wiki (filtered + reformatted) — plan:auto (2026-04-08)
 - [ ] Taiwan case reports → CME questions: batch convert downloaded OA cases to MCQ format — dd:auto (2026-04-08)
-- [ ] CME section setup (Codex designing) — plan:auto (2026-04-08)

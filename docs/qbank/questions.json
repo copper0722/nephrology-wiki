@@ -1,0 +1,733 @@
+[
+  {
+    "id": "nephrology-ckd-staging-q01",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "recall",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-1",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "下列哪一個情境最符合 CKD 的定義門檻，而且已滿足「慢性」條件？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "eGFR 68 mL/min/1.73 m²、UACR 20 mg/g，持續 6 個月"
+      },
+      {
+        "letter": "B",
+        "text": "eGFR 58 mL/min/1.73 m²、UACR 10 mg/g，持續 4 個月"
+      },
+      {
+        "letter": "C",
+        "text": "eGFR 92 mL/min/1.73 m²、UACR 25 mg/g，持續 5 個月"
+      },
+      {
+        "letter": "D",
+        "text": "eGFR 75 mL/min/1.73 m²、UACR 12 mg/g，急性腸胃炎後 2 週"
+      }
+    ],
+    "explanation": "CKD 的核心門檻是腎功能或腎損傷指標異常且具慢性持續性。以 staging 角度，`GFR <60` 或 `ACR >30` 是重要 threshold；若異常已持續超過 3 個月，就符合 CKD 的 chronicity 概念。B 選項的 eGFR 58 已低於 60，且持續 4 個月，因此最符合 CKD 定義。",
+    "option_whys": {
+      "A": "eGFR 仍大於等於 60，UACR 也未超過 30 mg/g，沒有達到 wiki 提示的 CKD threshold。",
+      "B": "",
+      "C": "eGFR 正常，UACR 25 mg/g 也未達 A2 門檻，因此不能用 albuminuria 定義 CKD。",
+      "D": "雖然是腎臟相關情境，但只有 2 週，較像 acute change，沒有滿足 CKD 的時間條件。"
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q02",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "recall",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-2",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "尿中白蛋白/肌酸酐比（UACR）120 mg/g，最適合歸類為下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A1"
+      },
+      {
+        "letter": "B",
+        "text": "A2"
+      },
+      {
+        "letter": "C",
+        "text": "A3"
+      },
+      {
+        "letter": "D",
+        "text": "G2"
+      }
+    ],
+    "explanation": "KDIGO 的 CGA staging 不只看 GFR，也要看 albuminuria category。UACR 120 mg/g 落在 `30-300 mg/g`，因此屬於 `A2`。這類題目是 TSN Part A 常見的基礎分類題。",
+    "option_whys": {
+      "A": "A1 是正常到輕度增加的白蛋白尿，通常是 UACR <30 mg/g，不符合 120 mg/g。",
+      "B": "",
+      "C": "A3 代表嚴重增加的白蛋白尿，通常是 UACR >300 mg/g，120 mg/g 還不到這個範圍。",
+      "D": "G2 是 GFR category，不是 albuminuria category，分類軸錯了。"
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q03",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "recall",
+    "answer": "D",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-3",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "某考生看到病人的 eGFR 為 22 mL/min/1.73 m²。依 CKD 的 GFR category，最適合分類為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "G2"
+      },
+      {
+        "letter": "B",
+        "text": "G3a"
+      },
+      {
+        "letter": "C",
+        "text": "G3b"
+      },
+      {
+        "letter": "D",
+        "text": "G4"
+      }
+    ],
+    "explanation": "GFR category 的基本切點必須熟記。eGFR 22 mL/min/1.73 m² 落在 `15-29`，因此屬於 `G4`。在考題中，先正確放入 G category，才能進一步結合 A category 做 heat map risk stratification。",
+    "option_whys": {
+      "A": "G2 是 eGFR 60-89，不符合 22。",
+      "B": "G3a 是 eGFR 45-59，不符合 22。",
+      "C": "G3b 是 eGFR 30-44，不符合 22。",
+      "D": ""
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q04",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "recall",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-4",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "關於 CKD 的 eGFR 估算方式，下列何者最符合對應 wiki 的敘述？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CKD-EPI 2021 仍以 race coefficient 為必要組成"
+      },
+      {
+        "letter": "B",
+        "text": "eGFRcr-cys 的準確度通常低於 eGFRcr"
+      },
+      {
+        "letter": "C",
+        "text": "eGFRcr 可作為初始估算，若需要確認可用 eGFRcys 或 eGFRcr-cys"
+      },
+      {
+        "letter": "D",
+        "text": "cystatin C 不應用於 CKD staging"
+      }
+    ],
+    "explanation": "對應 wiki 清楚寫到：`eGFRcr initial, eGFRcys/eGFRcr-cys for confirmation`，而 2021 新版 GFR equations 也強調移除 race coefficient，並指出 `eGFRcr-cys` 整體上最準。C 完整對應這個邏輯。",
+    "option_whys": {
+      "A": "2021 版重點就是拿掉 race coefficient，不是保留。",
+      "B": "wiki 指出 creatinine-cystatin C combined equation 更準，不是更差。",
+      "C": "",
+      "D": "cystatin C 正是 confirmatory approach 的重要工具，不能說完全不應使用。"
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q05",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "application",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-5",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "63 歲男性，糖尿病與高血壓病史，最近 6 個月追蹤兩次，eGFR 都約 52 mL/min/1.73 m²，UACR 約 420 mg/g。依 CGA staging 與 KDIGO heat map，最適合的判讀是下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CKD G2A1，低風險"
+      },
+      {
+        "letter": "B",
+        "text": "CKD G3aA2，高風險"
+      },
+      {
+        "letter": "C",
+        "text": "CKD G3aA3，非常高風險"
+      },
+      {
+        "letter": "D",
+        "text": "CKD G3bA3，非常高風險"
+      }
+    ],
+    "explanation": "eGFR 52 屬於 `G3a`，UACR 420 mg/g 屬於 `A3`。KDIGO heat map 下，`G3aA3` 屬於 very high risk。對應 wiki 強調 `CGA staging replaces GFR-only classification`，而且 `GFR and albuminuria are independent CVD predictors`，所以不能只看 eGFR。",
+    "option_whys": {
+      "A": "eGFR 52 不是 G2，UACR 420 也遠高於 A1。",
+      "B": "eGFR 分類對，但 UACR 420 已進入 A3，不是 A2。",
+      "C": "",
+      "D": "UACR 分類對，但 eGFR 52 是 G3a，不是 G3b。"
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q06",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "application",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-6",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "29 歲女性，IgA nephropathy，4 個月內兩次 UACR 分別為 165 與 180 mg/g，eGFR 穩定在 96 mL/min/1.73 m²。下列哪一個分類最正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不算 CKD，因為 eGFR 正常"
+      },
+      {
+        "letter": "B",
+        "text": "CKD G1A1"
+      },
+      {
+        "letter": "C",
+        "text": "CKD G1A2"
+      },
+      {
+        "letter": "D",
+        "text": "CKD G2A2"
+      }
+    ],
+    "explanation": "這題的關鍵是不能把「正常 eGFR」誤認為「沒有 CKD」。對應 wiki 指出 `GFR <60 or ACR >30 defines CKD/AKD threshold`，所以 albuminuria 本身就能界定腎損傷。此病人的 eGFR 96 屬於 `G1`，UACR 180 mg/g 屬於 `A2`，且已持續超過 3 個月，因此是 `CKD G1A2`。",
+    "option_whys": {
+      "A": "正常 eGFR 不等於沒有 CKD；持續性白蛋白尿本身就是 CKD marker。",
+      "B": "G1 正確，但 UACR 180 屬於 A2，不是 A1。",
+      "C": "",
+      "D": "A2 正確，但 eGFR 96 應分在 G1，不是 G2。"
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q07",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "application",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-7",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "78 歲女性，明顯肌少症，血清肌酸酐偏低。creatinine-based eGFR 為 61 mL/min/1.73 m²，UACR 40 mg/g。若你想確認她的 CKD staging，下列哪一個下一步最符合對應 wiki？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "補回 race coefficient 後重新計算 eGFR"
+      },
+      {
+        "letter": "B",
+        "text": "使用 cystatin C 或 creatinine-cystatin C combined equation 做確認"
+      },
+      {
+        "letter": "C",
+        "text": "因為 eGFR 大於 60，所以直接排除 CKD"
+      },
+      {
+        "letter": "D",
+        "text": "只看 UACR，不需再評估 GFR"
+      }
+    ],
+    "explanation": "wiki 對 CKD 的 GFR estimation 很明確：`eGFRcr initial, eGFRcys/eGFRcr-cys for confirmation`。在肌少症病人，單靠 creatinine 容易高估 true GFR，因此用 cystatin C 或 combined equation 做 confirmatory staging 特別合理。這題同時提醒：UACR 40 mg/g 已是 A2，不能因 eGFR 邊界值就忽略腎損傷證據。",
+    "option_whys": {
+      "A": "2021 方向是移除 race coefficient，不是補回去。",
+      "B": "",
+      "C": "UACR 已超過 30 mg/g，仍要考慮 CKD；而且 borderline creatinine eGFR 還需要 confirmatory testing。",
+      "D": "albuminuria 很重要，但 staging 是 CGA，不是只看 A 不看 G。"
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q08",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "application",
+    "answer": "A",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-8",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "67 歲男性，已知 CKD，eGFR 38 mL/min/1.73 m²，UACR 650 mg/g，serum bicarbonate 20 mmol/L。兩個月前因高血鉀停用 ACE inhibitor。根據對應 wiki，以下哪一項最能指出他腎功能惡化的風險訊號？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "低 bicarbonate 加上重度白蛋白尿，都支持較高 progression risk"
+      },
+      {
+        "letter": "B",
+        "text": "停用 RAAS inhibitor 後，ESRD 風險通常會下降"
+      },
+      {
+        "letter": "C",
+        "text": "一旦 eGFR <45，albuminuria 就不再有預後價值"
+      },
+      {
+        "letter": "D",
+        "text": "只有 serum creatinine 對預後有用，酸中毒與白蛋白尿都不重要"
+      }
+    ],
+    "explanation": "這題把 staging 與 progression risk 結合。對應 wiki 指出 `GFR and albuminuria are independent CVD predictors`；另有 UBI study summary 提到 metabolic acidosis 與 `eGFR decline >30%` 有關；RAAS inhibitor discontinuation 的 section 也指出停藥與 mortality、CV events、ESRD 增加相關。綜合來看，重度 albuminuria、低 bicarbonate、以及中斷 RAAS blockade 都是惡化訊號。A 最完整。",
+    "option_whys": {
+      "A": "",
+      "B": "對應 wiki 恰好相反，停用 RAAS inhibitor 與較差 outcome 有關，不是保護。",
+      "C": "albuminuria 是 independent predictor，不會因 GFR 降到某一點就失去意義。",
+      "D": "wiki 反覆強調不能只看 creatinine/eGFR，albuminuria 與 acid-base status 都和 prognosis 有關。"
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q09",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "analysis",
+    "bloom": "analysis",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-9",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "你在門診看到兩位病人：\n甲病人：eGFR 88 mL/min/1.73 m²，UACR 720 mg/g。\n乙病人：eGFR 32 mL/min/1.73 m²，UACR 8 mg/g。\n下列哪一個解讀最符合 CGA staging 的精神？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "甲病人 eGFR 正常，所以一定是低風險"
+      },
+      {
+        "letter": "B",
+        "text": "只有乙病人算 CKD，因為甲病人 eGFR 仍正常"
+      },
+      {
+        "letter": "C",
+        "text": "兩人都符合 CKD，但不能只靠 GFR 判斷風險，因為 albuminuria 是獨立預後指標"
+      },
+      {
+        "letter": "D",
+        "text": "甲病人只能看 A category，乙病人只能看 G category，CGA 不適用"
+      }
+    ],
+    "explanation": "這題測的是「為什麼 CGA staging 取代 GFR-only classification」。對應 wiki 直接寫到 `CGA staging replaces GFR-only classification`，而且 `GFR and albuminuria are independent CVD predictors`。甲病人雖然 eGFR 尚可，但 A3 白蛋白尿代表顯著風險；乙病人則因 G3b 已有腎功能下降。兩人都屬 CKD，也都不是只看單一軸就能充分描述。",
+    "option_whys": {
+      "A": "正常 eGFR 不能把重度白蛋白尿洗掉；A3 本身就代表高風險訊號。",
+      "B": "甲病人 UACR 720 mg/g，已遠超過 CKD 的 albuminuria threshold。",
+      "C": "",
+      "D": "CGA 的目的就是整合 Cause、GFR、Albuminuria，不是把不同病人拆成只看單一欄位。"
+    }
+  },
+  {
+    "id": "nephrology-ckd-staging-q10",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "analysis",
+    "bloom": "analysis",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-10",
+    "module": "nephrology-ckd-staging",
+    "title": "慢性腎臟病分期與風險分層",
+    "stem": "70 歲女性，糖尿病史，因截肢與肌肉量偏低，creatinine-based eGFR 為 64 mL/min/1.73 m²；cystatin C-based eGFR 為 48 mL/min/1.73 m²；UACR 120 mg/g，已持續 5 個月。下列哪一個判讀最符合對應 wiki？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不算 CKD，因為 creatinine-based eGFR 仍高於 60"
+      },
+      {
+        "letter": "B",
+        "text": "可合理視為 CKD G3aA2，且應重視 cystatin C / combined equation 的 confirmatory role"
+      },
+      {
+        "letter": "C",
+        "text": "應分為 CKD G1A3，因為 cystatin C 在糖尿病人都會低估 GFR"
+      },
+      {
+        "letter": "D",
+        "text": "只能算 AKD，因為白蛋白尿尚未超過 300 mg/g"
+      }
+    ],
+    "explanation": "這題要整合 chronicity、albuminuria、以及 discordant eGFR estimates。她的 UACR 120 mg/g 已是 `A2`，而且持續 5 個月，已符合 CKD 的 chronic albuminuria 條件。又因為病人肌肉量偏低，creatinine-based eGFR 可能高估 true kidney function，此時依 wiki 應以 `eGFRcys` 或 `eGFRcr-cys` 做 confirmatory assessment。若以 cystatin C 48 作為較可信的 staging 依據，則最合理是 `CKD G3aA2`。",
+    "option_whys": {
+      "A": "錯在只看 creatinine eGFR。wiki 已提醒 creatinine 是 initial estimate，不是所有情況下的 final truth。",
+      "B": "",
+      "C": "UACR 120 是 A2 不是 A3；而且 wiki 並未支持「糖尿病病人 cystatin C 一律低估 GFR」這種絕對說法。",
+      "D": "albuminuria >30 mg/g 就已足以支持 CKD marker，不需要等到 >300 mg/g 才算 CKD。"
+    }
+  },
+  {
+    "id": "nephrology-pd-adequacy-rkf-q01",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD adequacy、RKF 與 goal-directed therapy"
+    ],
+    "brenner_topic": null,
+    "difficulty": "analysis",
+    "bloom": "analyze",
+    "answer": "D",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-adequacy-rkf.md",
+    "anchor": "#q01",
+    "module": "nephrology-pd-adequacy-rkf",
+    "title": "PD adequacy、RKF 與 goal-directed therapy",
+    "stem": "45 歲女性 DN 引起 ESKD，PD 2 年。近期 residual urine output 下降。腎臟科醫師與 fellow 討論 RKF 於 PD 病人的意義。下列敘述何者最正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RKF 可預測 PD 病人存活，但對 HD 病人無此預測力"
+      },
+      {
+        "letter": "B",
+        "text": "RKF 對 total small solute clearance 的貢獻，主要解釋保存 RKF 帶來的存活優勢"
+      },
+      {
+        "letter": "C",
+        "text": "Residual GFR（urea + creatinine clearance 平均）可預測 PD 存活，但 residual urine volume 不行"
+      },
+      {
+        "letter": "D",
+        "text": "RKF 流失伴隨 middle molecule（如 β2-microglobulin）清除持續下降，PD 無法完全代償"
+      }
+    ],
+    "explanation": "RKF 流失伴隨 **middle molecule clearance**（如 β2-microglobulin）顯著且持續下降。PD 對 small solute（urea, creatinine）清除效率佳，但對 **middle molecule** 效率較差。Middle molecule 累積 → 心血管風險 + 死亡率上升。此機轉解釋為何 RKF 保存帶來的存活優勢**超越 small solute clearance**。",
+    "option_whys": {
+      "A": "錯。RKF 對 HD 病人也有獨立存活預測力（incremental HD 理論基礎）。",
+      "B": "錯。若只靠 small solute clearance，HD 高通量可完全取代。實際上 RKF 益處包含液體管理、磷清除、**middle molecule**、大分子毒素。",
+      "C": "錯。Residual urine volume 與 residual GFR **均獨立預測**存活；尿量保存有助液體控制。",
+      "D": "正確。"
+    }
+  },
+  {
+    "id": "nephrology-pd-adequacy-rkf-q02",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD adequacy、RKF 與 goal-directed therapy"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "apply",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-adequacy-rkf.md",
+    "anchor": "#q02",
+    "module": "nephrology-pd-adequacy-rkf",
+    "title": "PD adequacy、RKF 與 goal-directed therapy",
+    "stem": "40 歲女性 APD 1 年，total Kt/Vurea 1.7，日尿量 500 mL，無尿毒症狀、血壓及液體狀態穩定、依規服藥。治療團隊擔心透析 adequacy 不足，建議調整處方。依 ISPD goal-directed PD 原則，最適當的下一步？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "增加 dwell volume 至 Kt/Vurea 達 2.0 以上"
+      },
+      {
+        "letter": "B",
+        "text": "維持現行處方，定期監測症狀與 RKF"
+      },
+      {
+        "letter": "C",
+        "text": "改 CAPD 並增加 exchange 次數"
+      },
+      {
+        "letter": "D",
+        "text": "開始併用 HD (combined modality)"
+      }
+    ],
+    "explanation": "ISPD **goal-directed PD** 原則：以病人的 well-being 與生活目標為導向，而非追求更高 Kt/Vurea 目標。無症狀、液體平衡、RKF 穩定的病人**不需**增 Kt/Vurea。歷史 Kt/V 1.7 目標源自 ADEMEX + CANUSA，但後續分析顯示超越此閾值無額外益處。增加處方 → 增加治療負擔、dextrose 暴露、腹膜功能退化風險。",
+    "option_whys": {
+      "A": "錯。Kt/Vurea 1.7 已達 ISPD 最低目標；強求 2.0 違反 goal-directed 原則且有害。",
+      "B": "正確。Adequacy 評估不僅看 Kt/V，更看症狀、液體、營養、RKF、生活品質。",
+      "C": "錯。無指徵下改 modality 增加治療負擔。",
+      "D": "錯。Combined modality 保留給 APD/CAPD 無法達成液體或溶質目標者。"
+    }
+  },
+  {
+    "id": "nephrology-pd-mechanical-complications-q01",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 機械性併發症（疝氣、生殖器水腫、液體滲漏）"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "apply",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-mechanical-complications.md",
+    "anchor": "#q01",
+    "module": "nephrology-pd-mechanical-complications",
+    "title": "PD 機械性併發症（疝氣、生殖器水腫、液體滲漏）",
+    "stem": "65 歲男性 APD 6 個月，近 1 週陰囊腫脹加劇。無發燒、腹痛、透析液混濁。近期新加 icodextrin daytime dwell。理學檢查見清澈液體積聚於陰囊，透析液引流順暢但有不適感。下列處置何者最適當？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "增加 dwell volume 以改善溶質清除"
+      },
+      {
+        "letter": "B",
+        "text": "改 APD 並降低 fill volume，並暫時改 supine position"
+      },
+      {
+        "letter": "C",
+        "text": "執行 CT peritoneogram 評估腹膜滲漏或 patent processus vaginalis"
+      },
+      {
+        "letter": "D",
+        "text": "因併發症立即轉 HD"
+      }
+    ],
+    "explanation": "陰囊/生殖器水腫最可能源自 **patent processus vaginalis** 造成的鼠蹊疝氣。新增 daytime exchange → IAP (intra-abdominal pressure) 增加 → 液體經 patent processus vaginalis 移動至陰囊。**CT peritoneogram** 可確認滲漏來源並評估疝氣範圍，是診斷首選。確認後考慮手術修補或暫時降低 dwell volume / supine PD。",
+    "option_whys": {
+      "A": "錯。增加 dwell volume 反而加劇 IAP，使滲漏惡化。",
+      "B": "部分正確但非首選。降低 fill volume + supine 可作為**暫時性**處置，但必須先 CT peritoneogram 確認病因（是疝氣？導管周圍滲漏？胸腹腔交通？），再決定後續治療。",
+      "C": "正確。診斷先於治療，CT peritoneogram 是 gold standard。",
+      "D": "錯。轉 HD 僅保留給保守治療 + 手術修補失敗者，過於激進。"
+    }
+  },
+  {
+    "id": "nephrology-pd-mechanical-complications-q02",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 機械性併發症（疝氣、生殖器水腫、液體滲漏）"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "understand",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-mechanical-complications.md",
+    "anchor": "#q02",
+    "module": "nephrology-pd-mechanical-complications",
+    "title": "PD 機械性併發症（疝氣、生殖器水腫、液體滲漏）",
+    "stem": "關於 PD 病人 intra-abdominal pressure (IAP) 與機械併發症之關係，下列敘述何者最正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "IAP 與體位無關，主要由 fill volume 決定"
+      },
+      {
+        "letter": "B",
+        "text": "臥姿 > 坐姿 > 站姿"
+      },
+      {
+        "letter": "C",
+        "text": "坐姿 > 站姿 > 臥姿"
+      },
+      {
+        "letter": "D",
+        "text": "PD 引起的疝氣盛行率 < 5%"
+      }
+    ],
+    "explanation": "IAP 受**體位影響顯著**：**坐姿 > 站姿 > 臥姿**。臨床意義：日間坐姿最易誘發疝氣、液體滲漏；夜間臥姿 IAP 最低，為 APD 的生理優勢之一。PD 病人疝氣盛行率 10-25%（非 <5%）。水胸 1.6-10%，**>75% 為右側**（非左側），因右膈肌解剖較脆弱、缺乏心包保護。",
+    "option_whys": {
+      "A": "錯。體位是 IAP 最重要的決定因子之一（連同 fill volume、腹壁張力）。",
+      "B": "錯。臥姿 IAP 最低。",
+      "C": "正確。",
+      "D": "錯。PD 疝氣盛行率 10-25%，顯著高於一般族群。"
+    }
+  },
+  {
+    "id": "nephrology-pd-peritonitis-management-q01",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 腹膜炎診斷、治療時機與抗生素策略"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "apply",
+    "answer": "A",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-peritonitis-management.md",
+    "anchor": "#q01",
+    "module": "nephrology-pd-peritonitis-management",
+    "title": "PD 腹膜炎診斷、治療時機與抗生素策略",
+    "stem": "70 歲女性 PD，因劇烈腹痛 + 混濁透析液至 ED。取透析液送 cell count + culture，但延後 8 小時才給抗生素。結果：WBC 4000/µL（85% neutrophils），Gram stain gram-positive cocci in pairs。造成此病人 PD 技術存活率下降的最主要因素為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "抗生素啟動延遲 > 6 hr"
+      },
+      {
+        "letter": "B",
+        "text": "Gram-positive cocci 存在"
+      },
+      {
+        "letter": "C",
+        "text": "WBC > 1000/µL"
+      },
+      {
+        "letter": "D",
+        "text": "就醫時有劇烈腹痛"
+      }
+    ],
+    "explanation": "觀察性數據顯示：**每延遲 1 小時給抗生素，PD 存活率降 5-6%**。ISPD 2022 強調「立即 empirical IP antibiotics」，不應等待培養結果。此病人延遲 8 小時 → 技術失敗風險顯著上升。Gram-positive cocci + 高 WBC 確認診斷，但對技術存活的獨立預測力遠低於抗生素延遲。",
+    "option_whys": {
+      "A": "正確。每 1 小時延遲 → 5-6% 存活下降；8 小時延遲 = 顯著風險因子。",
+      "B": "錯。Gram-positive cocci（CNS / S. aureus）預後相對好，非技術失敗主因。",
+      "C": "錯。WBC > 100/µL 是診斷閾值，其絕對值與存活關聯弱。",
+      "D": "錯。腹痛是症狀，非預後因子。"
+    }
+  },
+  {
+    "id": "nephrology-pd-peritonitis-management-q02",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 腹膜炎診斷、治療時機與抗生素策略"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "apply",
+    "answer": "A",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-peritonitis-management.md",
+    "anchor": "#q02",
+    "module": "nephrology-pd-peritonitis-management",
+    "title": "PD 腹膜炎診斷、治療時機與抗生素策略",
+    "stem": "58 歲女性 PD，導管出口處膿性分泌物 + 紅斑，沿皮下 tunnel 輕度不適。診斷為 exit site + tunnel infection，已給 broad-spectrum 抗生素並取培養。48 hr 後培養結果：Staphylococcus aureus (MSSA)。下一步最適當的處置？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "根據培養 narrow 至 β-lactam（如 cefazolin），完成 3 週療程"
+      },
+      {
+        "letter": "B",
+        "text": "立即拔除 PD 導管"
+      },
+      {
+        "letter": "C",
+        "text": "不論培養結果繼續 broad-spectrum 至症狀消退"
+      },
+      {
+        "letter": "D",
+        "text": "改為 intraperitoneal 抗生素"
+      }
+    ],
+    "explanation": "Exit/tunnel infection 最常由 gram-positive（特別是 S. aureus）引起。拿到培養後 **narrow coverage** 是 antibiotic stewardship 核心：優化療效、減少抗藥性、降低藥物暴露。MSSA 首選 β-lactam（cefazolin / oxacillin），療程 2-3 週視反應。",
+    "option_whys": {
+      "A": "正確。Culture-directed narrowing，MSSA 用 β-lactam 優於 vancomycin。",
+      "B": "錯。單純 exit/tunnel infection 不需立即拔管。拔管指徵：抗生素治療失敗、併發腹膜炎、refractory infection。",
+      "C": "錯。繼續 broad-spectrum 違反 stewardship，增加抗藥與副作用。",
+      "D": "錯。IP 抗生素路徑保留給**腹膜炎**，不是 exit/tunnel infection（後者用 oral / IV）。"
+    }
+  },
+  {
+    "id": "nephrology-pd-peritonitis-management-q03",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 腹膜炎診斷、治療時機與抗生素策略"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "remember",
+    "answer": "D",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-peritonitis-management.md",
+    "anchor": "#q03",
+    "module": "nephrology-pd-peritonitis-management",
+    "title": "PD 腹膜炎診斷、治療時機與抗生素策略",
+    "stem": "依 ISPD 2022 PD 腹膜炎診斷標準，下列何者**不**屬於診斷三條件之一？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "腹痛或透析液混濁等臨床症狀"
+      },
+      {
+        "letter": "B",
+        "text": "透析液 WBC > 100/µL（dwell ≥ 2 hr）且 neutrophil > 50%"
+      },
+      {
+        "letter": "C",
+        "text": "透析液培養陽性"
+      },
+      {
+        "letter": "D",
+        "text": "CRP > 10 mg/dL"
+      }
+    ],
+    "explanation": "ISPD 2022 診斷三條件（至少 2/3）：\n1. 臨床症狀（腹痛、混濁液）\n2. 透析液 WBC > 100/µL（dwell ≥ 2 hr）+ neutrophil > 50%\n3. 透析液培養陽性\n**CRP / 血液炎症指標非診斷標準**。培養陽性率目標 > 80%（5-10 mL 直接注入血培養瓶）。",
+    "option_whys": {
+      "A": "屬於診斷條件 1。",
+      "B": "屬於診斷條件 2。",
+      "C": "屬於診斷條件 3。",
+      "D": "**正確答案**。CRP 不在 ISPD 診斷標準中，雖可輔助評估嚴重度但非診斷必要。"
+    }
+  }
+]

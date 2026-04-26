@@ -2,48 +2,44 @@
 <html lang="zh-TW">
 <head>
   <meta charset="utf-8">
-  <title>Nephrology CME — 投影片首頁</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nephro CME</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", sans-serif; max-width: 900px; margin: 2em auto; padding: 1em; color: #1a2530; line-height: 1.6; }
-    h1 { color: #1a5276; border-bottom: 2px solid #1a5276; padding-bottom: 0.3em; }
-    h2 { color: #2c3e50; margin-top: 1.8em; border-bottom: 1px solid #d0d8de; padding-bottom: 0.2em; }
-    h3 { color: #34495e; margin-top: 1.2em; }
-    a { color: #1a5276; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    ul { padding-left: 1.5em; }
-    li { line-height: 1.9; }
-    .meta { color: #777; font-size: 0.85em; margin-bottom: 2em; }
-    .repo { background: #f4f6f8; padding: 0.5em 1em; border-left: 3px solid #1a5276; margin: 1em 0; font-size: 0.9em; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", sans-serif; color: #18242a; background: #f6f7f5; line-height: 1.6; }
+    main { max-width: 960px; margin: 0 auto; padding: 40px 24px; }
+    h1 { margin: 0 0 10px; font-size: 2rem; letter-spacing: 0; }
+    p { margin: 0 0 22px; color: #5c6a70; }
+    .actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 24px 0 34px; }
+    .cta { display: block; min-height: 116px; padding: 20px; border: 1px solid #d7dfe2; border-radius: 8px; background: #fff; color: #18242a; text-decoration: none; }
+    .cta strong { display: block; margin-bottom: 8px; font-size: 1.2rem; color: #246b5a; }
+    .cta.secondary strong { color: #8a4f23; }
+    h2 { margin-top: 30px; font-size: 1.1rem; }
+    ul { padding-left: 1.3em; }
+    li { margin: 5px 0; }
+    a { color: #246b5a; }
+    @media (max-width: 680px) { .actions { grid-template-columns: 1fr; } main { padding: 28px 18px; } }
   </style>
 </head>
 <body>
-  <h1>Nephrology CME 投影片</h1>
-  <p class="meta">Auto-built by GitHub Actions · Marp HTML</p>
-  <div class="repo">
-    Source repo: <a href="https://github.com/copper0722/nephro-cme">copper0722/nephro-cme</a><br>
-    Markdown source: <code>slides/{Book}/Ch{N}_*.md</code> · 自動 build 到 <code>docs/slides/</code>
-  </div>
-  <h2>2026_Daugirdas_6e</h2>
-  <ul>
-    <li><a href="slides/2026_Daugirdas_6e/Ch01_慢性腎臟病患者的評估方法.html">Ch01_慢性腎臟病患者的評估方法</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch02_CKD_4-5期的管理.html">Ch02_CKD_4-5期的管理</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch05_透析用水與透析液.html">Ch05_透析用水與透析液</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch07_靜脈導管通路.html">Ch07_靜脈導管通路</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch08_血管通路監測與併發症.html">Ch08_血管通路監測與併發症</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch10_急性血液透析處方.html">Ch10_急性血液透析處方</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch12_血液透析中的併發症.html">Ch12_血液透析中的併發症</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch13_抗凝血治療.html">Ch13_抗凝血治療</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch16_Diffusion_vs_Convection_Clearances.html">Ch16_Diffusion_vs_Convection_Clearances</a></li>
-    <li><a href="slides/2026_Daugirdas_6e/Ch17_治療性血漿分離術.html">Ch17_治療性血漿分離術</a></li>
-  </ul>
-  <h2>Notes (full markdown)</h2>
-  <p>17 chapters Ch01-17 in <a href="https://github.com/copper0722/nephro-cme/tree/main/note">note/ folder on GitHub</a></p>
-  <h2>Operation</h2>
-  <ul>
-    <li>方向鍵 ←/→ 翻頁</li>
-    <li><kbd>F</kbd> 全螢幕</li>
-    <li><kbd>P</kbd> presenter mode (講者畫面 + 計時)</li>
-    <li><kbd>Esc</kbd> 退出全螢幕</li>
-  </ul>
+  <main>
+    <h1>Nephro CME</h1>
+    <p>TSN 腎臟專科考試練習入口。</p>
+
+    <nav class="actions" aria-label="Primary navigation">
+      <a class="cta" href="qbank/">
+        <strong>Q-Bank</strong>
+        互動作答、answer reveal、local score tracking。
+      </a>
+      <a class="cta secondary" href="slides/">
+        <strong>Slides</strong>
+        Marp 教學投影片 HTML。
+      </a>
+    </nav>
+
+    <h2>Slide Folders</h2>
+    <ul>
+      <li><a href="slides/2026_Daugirdas_6e/">2026_Daugirdas_6e</a></li>
+    </ul>
+  </main>
 </body>
 </html>

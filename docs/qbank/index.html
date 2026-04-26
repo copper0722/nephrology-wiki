@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nephro CME Q-Bank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Nephro CME Q-Bank</h1>
+      <p id="question-meta" class="muted">Loading questions...</p>
+    </div>
+    <div class="score" aria-live="polite">
+      <span><strong id="score-correct">0</strong> correct</span>
+      <span><strong id="score-wrong">0</strong> wrong</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="toolbar" aria-label="Question controls">
+      <label for="topic-filter">Topic</label>
+      <select id="topic-filter"></select>
+
+      <div class="button-grid">
+        <button id="prev-btn" type="button">Prev</button>
+        <button id="next-btn" type="button">Next</button>
+        <button id="random-btn" type="button">Random</button>
+        <button id="reset-btn" type="button" class="danger">Reset</button>
+      </div>
+
+      <section class="weak-topics">
+        <h2>Weak Topics</h2>
+        <ul id="weak-topic-list"></ul>
+      </section>
+    </aside>
+
+    <section class="question-panel" aria-live="polite">
+      <div id="empty-state" class="empty" hidden>No questions available.</div>
+
+      <article id="question-card">
+        <div class="question-head">
+          <span id="question-count" class="pill"></span>
+          <span id="question-difficulty" class="pill secondary"></span>
+        </div>
+
+        <h2 id="question-title"></h2>
+        <div id="stem" class="stem"></div>
+
+        <form id="answer-form" class="options"></form>
+
+        <div class="actions">
+          <button id="submit-btn" type="button">Submit</button>
+          <button id="reveal-btn" type="button" class="secondary-action">Reveal Answer</button>
+        </div>
+
+        <section id="result" class="result" hidden></section>
+        <section id="why-blocks" class="why-grid" hidden></section>
+      </article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

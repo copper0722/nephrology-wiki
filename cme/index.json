@@ -1,0 +1,257 @@
+[
+  {
+    "id": "nephrology-ckd-staging-q01",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "recall",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-1"
+  },
+  {
+    "id": "nephrology-ckd-staging-q02",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "recall",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-2"
+  },
+  {
+    "id": "nephrology-ckd-staging-q03",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "recall",
+    "answer": "D",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-3"
+  },
+  {
+    "id": "nephrology-ckd-staging-q04",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "recall",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-4"
+  },
+  {
+    "id": "nephrology-ckd-staging-q05",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "application",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-5"
+  },
+  {
+    "id": "nephrology-ckd-staging-q06",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "application",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-6"
+  },
+  {
+    "id": "nephrology-ckd-staging-q07",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "application",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-7"
+  },
+  {
+    "id": "nephrology-ckd-staging-q08",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "application",
+    "answer": "A",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-8"
+  },
+  {
+    "id": "nephrology-ckd-staging-q09",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "analysis",
+    "bloom": "analysis",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-9"
+  },
+  {
+    "id": "nephrology-ckd-staging-q10",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "慢性腎臟病分期與風險分層"
+    ],
+    "brenner_topic": null,
+    "difficulty": "analysis",
+    "bloom": "analysis",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-ckd-staging.md",
+    "anchor": "#題目-10"
+  },
+  {
+    "id": "nephrology-pd-adequacy-rkf-q01",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD adequacy、RKF 與 goal-directed therapy"
+    ],
+    "brenner_topic": null,
+    "difficulty": "analysis",
+    "bloom": "analyze",
+    "answer": "D",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-adequacy-rkf.md",
+    "anchor": "#q01"
+  },
+  {
+    "id": "nephrology-pd-adequacy-rkf-q02",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD adequacy、RKF 與 goal-directed therapy"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "apply",
+    "answer": "B",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-adequacy-rkf.md",
+    "anchor": "#q02"
+  },
+  {
+    "id": "nephrology-pd-mechanical-complications-q01",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 機械性併發症（疝氣、生殖器水腫、液體滲漏）"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "apply",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-mechanical-complications.md",
+    "anchor": "#q01"
+  },
+  {
+    "id": "nephrology-pd-mechanical-complications-q02",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 機械性併發症（疝氣、生殖器水腫、液體滲漏）"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "understand",
+    "answer": "C",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-mechanical-complications.md",
+    "anchor": "#q02"
+  },
+  {
+    "id": "nephrology-pd-peritonitis-management-q01",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 腹膜炎診斷、治療時機與抗生素策略"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "apply",
+    "answer": "A",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-peritonitis-management.md",
+    "anchor": "#q01"
+  },
+  {
+    "id": "nephrology-pd-peritonitis-management-q02",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 腹膜炎診斷、治療時機與抗生素策略"
+    ],
+    "brenner_topic": null,
+    "difficulty": "application",
+    "bloom": "apply",
+    "answer": "A",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-peritonitis-management.md",
+    "anchor": "#q02"
+  },
+  {
+    "id": "nephrology-pd-peritonitis-management-q03",
+    "source_kind": "legacy_module",
+    "topic_tags": [
+      "PD 腹膜炎診斷、治療時機與抗生素策略"
+    ],
+    "brenner_topic": null,
+    "difficulty": "recall",
+    "bloom": "remember",
+    "answer": "D",
+    "public_safety": null,
+    "review_state": null,
+    "file_path": "cme/nephrology-pd-peritonitis-management.md",
+    "anchor": "#q03"
+  }
+]
