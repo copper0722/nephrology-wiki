@@ -2,14 +2,14 @@
 
 TSN 腎臟專科醫師甄審筆試 + 口試準備資源。核心入口是互動式 Q-bank：[`docs/qbank/`](./docs/qbank/)。
 
-## 四個區塊
+## 兩個區塊（2026-04-27 scope finalized）
 
 | 區塊 | 內容 | 適合誰讀 |
 |---|---|---|
-| [`/cme/`](./cme) | TSN 4-option (A-D) 題庫來源、answer reveal、rationale、option-level why | 考生刷題 |
-| [`/note/`](./note) | 指定教科書**每章筆記** + 指定期刊**每篇 review 筆記**（zh-TW） | 考生 |
-| [`/nephrology-cme-wiki/`](./nephrology-cme-wiki) | LLM 友善的 M2M 英文知識索引（CC agent 消化用） | AI、進階使用者 |
-| [`/slides/`](./slides) | Marp 教學投影片，從 note 抽取（2026-04-19 從 textbook-notes 遷入） | 考生 + Copper |
+| [`/cme/`](./cme) | TSN 4-option (A-D) 互動式題庫、answer reveal、rationale、option-level why | 考生刷題 |
+| [`/nephrology-cme-wiki/`](./nephrology-cme-wiki) | LLM 友善的 M2M 英文知識索引（題庫每選項解釋的 source layer） | AI、進階使用者 |
+
+> 2026-04-27 scope 收斂：本 repo 只做考題 + wiki 解答。原 `/note/` 與 `/slides/` 已 archive 至 `_archive/2026-04-27-pre-pivot/`。textbook 章節筆記改放私有 vault（`~/repos/note/textbook/`）；teaching slides 改透過柏安官網（`bo-an-hd.com`）opt-in 發佈。
 
 > **有腎臟考試相關的 paywall 文章？歡迎 DM 寄給我，我會加入知識庫。**
 > 你手邊有跟考試相關的文獻（尤其 Review），歡迎私訊提供，我會整理進 wiki 讓大家都能用。
